@@ -119,7 +119,7 @@
         },
         {
             "name": "刷体力(beta)",
-            "entry": "mission_office"
+            "entry": "use_energy"
         }
     ],
     "option": {

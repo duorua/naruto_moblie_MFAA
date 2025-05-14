@@ -37,11 +37,11 @@
     {
       "name": "进入火影",
       "entry": "start_up",
-      "check": true,
+      "check": false,
       "option": [
         {
           "name": "加载时间选择",
-          "index": 2
+          "index": 0
         },
         {
           "name": "账号属性",
@@ -52,52 +52,52 @@
     {
       "name": "开始游戏",
       "entry": "start_game",
-      "check": true
+      "check": false
     },
     {
       "name": "招财",
       "entry": "get_chopper",
-      "check": true
+      "check": false
     },
     {
       "name": "排行榜",
       "entry": "leaderboard",
-      "check": true
+      "check": false
     },
     {
       "name": "送体力",
       "entry": "give_energy",
-      "check": true
+      "check": false
     },
     {
       "name": "每日分享",
       "entry": "share",
-      "check": true
+      "check": false
     },
     {
       "name": "火影情报社",
       "entry": "naruto_club",
-      "check": true
+      "check": false
     },
     {
       "name": "邮箱",
       "entry": "mail",
-      "check": true
+      "check": false
     },
     {
       "name": "组织",
       "entry": "group",
-      "check": true
+      "check": false
     },
     {
       "name": "积分赛",
       "entry": "point_race",
-      "check": true
+      "check": false
     },
     {
       "name": "试炼",
       "entry": "practice_place",
-      "check": true,
+      "check": false,
       "option": [
         {
           "name": "不做修行",
@@ -112,12 +112,12 @@
     {
       "name": "丰饶",
       "entry": "rich_room",
-      "check": true
+      "check": false
     },
     {
       "name": "小队突袭",
       "entry": "team_dash",
-      "check": true,
+      "check": false,
       "option": [
         {
           "name": "等待自动战斗时间选择",
@@ -128,17 +128,17 @@
     {
       "name": "忍法帖",
       "entry": "ninjia_book",
-      "check": true
+      "check": false
     },
     {
       "name": "免费招募",
       "entry": "headhunt",
-      "check": true
+      "check": false
     },
     {
       "name": "月签到和活动",
       "entry": "activity",
-      "check": true
+      "check": false
     },
     {
       "name": "任务集会所（beta）",
@@ -147,8 +147,8 @@
     },
     {
       "name": "刷体力(beta)",
-      "entry": "mission_office",
-      "check": false
+      "entry": "use_energy",
+      "check": true
     }
   ],
   "AdbDevice": {
@@ -160,6 +160,6 @@
     "Config": "{\"extras\":{\"mumu\":{\"enable\":true,\"index\":0,\"path\":\"D:/soft/mumu模拟器/MuMu Player 12\"}}}"
   },
   "EnableEdit": false,
-  "UI.MainWindow.Width": "1080",
-  "UI.MainWindow.Height": "620.5"
+  "UI.MainWindow.Width": "1453",
+  "UI.MainWindow.Height": "865"
 }
