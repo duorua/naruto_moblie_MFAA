@@ -1,0 +1,165 @@
+{
+  "ColorTheme": {
+    "DisplayName": "Blue",
+    "Primary": {
+      "A": 255,
+      "R": 10,
+      "G": 89,
+      "B": 247
+    },
+    "PrimaryBrush": "#ff0a59f7",
+    "PrimaryDark": {
+      "A": 255,
+      "R": 5,
+      "G": 44,
+      "B": 123
+    },
+    "PrimaryDarkBrush": "#ff052c7b",
+    "Accent": {
+      "A": 255,
+      "R": 247,
+      "G": 168,
+      "B": 10
+    },
+    "AccentBrush": "#fff7a80a",
+    "AccentDark": {
+      "A": 255,
+      "R": 123,
+      "G": 84,
+      "B": 5
+    },
+    "AccentDarkBrush": "#ff7b5405"
+  },
+  "BaseTheme": "Light",
+  "CurrentLanguage": "zh-hans",
+  "Resource": "官服",
+  "TaskItems": [
+    {
+      "name": "进入火影",
+      "entry": "start_up",
+      "check": true,
+      "option": [
+        {
+          "name": "加载时间选择",
+          "index": 2
+        },
+        {
+          "name": "账号属性",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "name": "开始游戏",
+      "entry": "start_game",
+      "check": true
+    },
+    {
+      "name": "招财",
+      "entry": "get_chopper",
+      "check": true
+    },
+    {
+      "name": "排行榜",
+      "entry": "leaderboard",
+      "check": true
+    },
+    {
+      "name": "送体力",
+      "entry": "give_energy",
+      "check": true
+    },
+    {
+      "name": "每日分享",
+      "entry": "share",
+      "check": true
+    },
+    {
+      "name": "火影情报社",
+      "entry": "naruto_club",
+      "check": true
+    },
+    {
+      "name": "邮箱",
+      "entry": "mail",
+      "check": true
+    },
+    {
+      "name": "组织",
+      "entry": "group",
+      "check": true
+    },
+    {
+      "name": "积分赛",
+      "entry": "point_race",
+      "check": true
+    },
+    {
+      "name": "试炼",
+      "entry": "practice_place",
+      "check": true,
+      "option": [
+        {
+          "name": "不做修行",
+          "index": 0
+        },
+        {
+          "name": "等待生存扫荡时间选择",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "name": "丰饶",
+      "entry": "rich_room",
+      "check": true
+    },
+    {
+      "name": "小队突袭",
+      "entry": "team_dash",
+      "check": true,
+      "option": [
+        {
+          "name": "等待自动战斗时间选择",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "name": "忍法帖",
+      "entry": "ninjia_book",
+      "check": true
+    },
+    {
+      "name": "免费招募",
+      "entry": "headhunt",
+      "check": true
+    },
+    {
+      "name": "月签到和活动",
+      "entry": "activity",
+      "check": true
+    },
+    {
+      "name": "任务集会所（beta）",
+      "entry": "mission_office",
+      "check": false
+    },
+    {
+      "name": "刷体力(beta)",
+      "entry": "mission_office",
+      "check": false
+    }
+  ],
+  "AdbDevice": {
+    "Name": "MuMuPlayer12",
+    "AdbPath": "D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe",
+    "AdbSerial": "127.0.0.1:16384",
+    "ScreencapMethods": 18446744073709551559,
+    "InputMethods": 18446744073709551607,
+    "Config": "{\"extras\":{\"mumu\":{\"enable\":true,\"index\":0,\"path\":\"D:/soft/mumu模拟器/MuMu Player 12\"}}}"
+  },
+  "EnableEdit": false,
+  "UI.MainWindow.Width": "1080",
+  "UI.MainWindow.Height": "620.5"
+}
