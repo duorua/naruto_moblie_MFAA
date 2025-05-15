@@ -40,9 +40,6 @@
             "check_selected_group_gameplay"
         ],
         "threshold": 0.9,
-        "interrupt": [
-            "group_gameplay_undone"
-        ],
         "post_wait_freezes": 300
     },
     "group_gameplay_done": {
@@ -70,6 +67,7 @@
             48
         ],
         "action": "DoNothing",
+        "threshold": 0.2,
         "next": [
             "check_group_pray_undone",
             "check_group_pray_done"
