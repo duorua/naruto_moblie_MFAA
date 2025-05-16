@@ -72,32 +72,32 @@
     {
       "name": "每日分享",
       "entry": "share",
-      "check": true
+      "check": false
     },
     {
       "name": "火影情报社",
       "entry": "naruto_club",
-      "check": true
+      "check": false
     },
     {
       "name": "邮箱",
       "entry": "mail",
-      "check": true
+      "check": false
     },
     {
       "name": "组织",
       "entry": "group",
-      "check": true
+      "check": false
     },
     {
       "name": "积分赛",
       "entry": "point_race",
-      "check": true
+      "check": false
     },
     {
       "name": "试炼",
       "entry": "practice_place",
-      "check": true,
+      "check": false,
       "option": [
         {
           "name": "不做修行",
@@ -112,12 +112,12 @@
     {
       "name": "丰饶",
       "entry": "rich_room",
-      "check": true
+      "check": false
     },
     {
       "name": "小队突袭",
       "entry": "team_dash",
-      "check": true,
+      "check": false,
       "option": [
         {
           "name": "等待自动战斗时间选择",
@@ -128,22 +128,22 @@
     {
       "name": "免费招募",
       "entry": "headhunt",
-      "check": true
+      "check": false
     },
     {
       "name": "月签到和活动",
       "entry": "activity",
-      "check": true
+      "check": false
     },
     {
       "name": "任务集会所（beta）",
       "entry": "mission_office",
-      "check": true
+      "check": false
     },
     {
       "name": "刷体力(beta)",
       "entry": "use_energy",
-      "check": true
+      "check": false
     },
     {
       "name": "忍法帖",

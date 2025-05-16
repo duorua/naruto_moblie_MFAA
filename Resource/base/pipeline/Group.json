@@ -17,14 +17,14 @@
         "threshold": 0.9,
         "action": "Click",
         "next": [
-            "group_gameplay_done",
-            "group_gameplay_undone"
+            "group_gameplay_undone",
+            "group_gameplay_done"
         ],
         "interrupt": [
             "back_main_screen_and_stop"
         ],
         "pre_wait_freezes": 500,
-        "post_delay": 1000
+        "post_delay": 1500
     },
     "group_gameplay_undone": {
         "recognition": "TemplateMatch",
@@ -105,7 +105,7 @@
         "next": [
             "chopper_group_pray"
         ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 600
     },
     "chopper_group_pray": {
         "recognition": "TemplateMatch",
@@ -118,8 +118,7 @@
         ],
         "action": "Click",
         "next": [
-            "confirm_chopper_group_pray",
-            "award"
+            "confirm_chopper_group_pray"
         ],
         "interrupt": [
             "close_chopper_group_pray"
@@ -134,7 +133,10 @@
             199,
             77
         ],
-        "action": "Click"
+        "action": "Click",
+        "next": [
+            "group_award"
+        ]
     },
     "confirm_chopper_group_pray": {
         "recognition": "TemplateMatch",
@@ -146,11 +148,11 @@
             284
         ],
         "action": "Click",
-        "next": "award",
+        "next": "group_award",
         "pre_wait_freezes": 300,
         "post_wait_freezes": 300
     },
-    "award": {
+    "group_award": {
         "next": [
             "check_no_yesterday_award"
         ],
@@ -164,20 +166,19 @@
         "action": "DoNothing",
         "inverse": true,
         "next": [
+            "first_group_award",
             "first_group_award_done"
         ],
-        "interrupt": [
-            "first_group_award"
-        ]
+        "interrupt": []
     },
     "first_group_award_done": {
         "recognition": "TemplateMatch",
         "template": "Group/first_box_done.png",
         "roi": [
-            1153,
-            370,
-            88,
-            83
+            1158,
+            380,
+            68,
+            59
         ],
         "threshold": 0.95,
         "next": "second_group_award_entry"
@@ -193,32 +194,32 @@
         ],
         "threshold": 0.98,
         "action": "Click",
-        "next": "second_group_award_entry",
-        "interrupt": [
+        "next": [
+            "second_group_award_entry",
             "second_group_award"
         ],
+        "interrupt": [],
         "post_wait_freezes": 300
     },
     "second_group_award_entry": {
         "next": [
+            "second_group_award",
             "second_group_award_done"
         ],
-        "interrupt": [
-            "second_group_award"
-        ]
+        "interrupt": []
     },
     "second_group_award_done": {
         "recognition": "TemplateMatch",
         "template": [
-            "Group/second_box_done_1.png",
             "Group/second_box_done.png",
+            "Group/second_box_done_1.png",
             "Group/second_box_done_2.png"
         ],
         "roi": [
-            1161,
-            261,
-            85,
-            78
+            1171,
+            279,
+            59,
+            44
         ],
         "threshold": 0.98,
         "next": "third_group_award_entry"
@@ -268,21 +269,27 @@
             0
         ],
         "post_wait_freezes": 300,
-        "next": "third_group_award_done",
-        "interrupt": "third_group_award"
+        "next": [
+            "third_group_award",
+            "third_group_award_done"
+        ],
+        "interrupt": []
     },
     "third_group_award_entry": {
-        "next": "third_group_award_done",
-        "interrupt": "third_group_award"
+        "next": [
+            "third_group_award",
+            "third_group_award_done"
+        ],
+        "interrupt": []
     },
     "third_group_award_done": {
         "recognition": "TemplateMatch",
         "template": "Group/third_box_done.png",
         "roi": [
-            1147,
-            151,
-            88,
-            75
+            1155,
+            161,
+            61,
+            59
         ],
         "threshold": 0.95,
         "next": "close_group_pray"
@@ -453,6 +460,12 @@
         "recognition": "TemplateMatch",
         "template": "Group/get_yesterday_award.png",
         "inverse": true,
+        "roi": [
+            722,
+            185,
+            149,
+            444
+        ],
         "next": [
             "close_yesterday_award"
         ],
@@ -462,6 +475,12 @@
         "recognition": "TemplateMatch",
         "template": "Group/get_yesterday_award.png",
         "action": "Click",
+        "roi": [
+            722,
+            185,
+            149,
+            444
+        ],
         "post_wait_freezes": 100
     },
     "close_yesterday_award": {

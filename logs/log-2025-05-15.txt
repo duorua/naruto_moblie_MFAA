@@ -652,3 +652,128 @@
 [2025-05-15 17:03:18.989][INF] 开始任务: 每日分享
 [2025-05-15 17:04:27.237][INF] 正在停止......
 [2025-05-15 17:04:27.318][INF] 已放弃本次任务
+[2025-05-15 17:53:36.376][INF] 解析参数：{}
+[2025-05-15 17:53:37.253][INF] Loading Configurations...
+[2025-05-15 17:53:37.324][INF] Current Configuration: Default
+[2025-05-15 17:53:37.553][INF] 窗口初始大小设置为: 宽度=1453, 高度=815.5
+[2025-05-15 17:53:38.328][INF] 构造函数中列宽设置成功
+[2025-05-15 17:53:38.919][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 17:53:39.523][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 17:53:40.168][INF] 窗口Loaded事件触发
+[2025-05-15 17:53:40.998][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 17:53:41.021][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 17:53:41.034][INF] 正在载入资源
+[2025-05-15 17:53:41.034][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-15 17:53:41.052][INF] 正在连接至模拟器......
+[2025-05-15 17:53:41.195][INF] GPU acceleration: Auto
+[2025-05-15 17:53:41.196][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-15 17:53:41.196][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-15 17:53:41.196][INF] ScreenCap: Default
+[2025-05-15 17:53:41.196][INF] Input: MinitouchAndAdbKey
+[2025-05-15 17:53:41.196][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-15 17:53:49.082][INF] 开始执行任务: 更新资源
+[2025-05-15 17:53:49.091][INF] 任务完成: 更新资源
+[2025-05-15 17:53:49.091][INF] 开始执行任务: 更新软件
+[2025-05-15 17:53:49.091][INF] 任务已全部完成！
+(用时 0h 0m 8s)
+[2025-05-15 17:53:49.793][ERR] 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+[2025-05-15 17:53:49.833][ERR] System.Exception: 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+   at MFAAvalonia.Helper.VersionChecker.GetLatestVersionAndDownloadUrlFromGithub(String& url, String& latestVersion, String owner, String repo) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 975
+   at MFAAvalonia.Helper.VersionChecker.CheckForMFAUpdates(Boolean isGithub) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 185
+[2025-05-15 17:53:49.833][INF] 任务完成: 更新软件
+[2025-05-15 17:55:38.457][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 17:55:38.501][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 17:55:38.917][INF] 正在连接至模拟器......
+[2025-05-15 17:55:39.029][INF] 截图耗时: 26ms(Default)
+[2025-05-15 17:55:39.035][INF] 开始任务: 每日分享
+[2025-05-15 18:00:05.012][INF] 解析参数：{}
+[2025-05-15 18:00:05.728][INF] Loading Configurations...
+[2025-05-15 18:00:05.810][INF] Current Configuration: Default
+[2025-05-15 18:00:06.056][INF] 窗口初始大小设置为: 宽度=1453, 高度=815.5
+[2025-05-15 18:00:06.722][INF] 构造函数中列宽设置成功
+[2025-05-15 18:00:07.192][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:00:08.096][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:00:08.676][INF] 窗口Loaded事件触发
+[2025-05-15 18:00:09.344][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:00:09.357][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:00:09.365][INF] 正在载入资源
+[2025-05-15 18:00:09.365][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-15 18:00:09.383][INF] 正在连接至模拟器......
+[2025-05-15 18:00:09.482][INF] GPU acceleration: Auto
+[2025-05-15 18:00:09.482][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-15 18:00:09.483][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-15 18:00:09.483][INF] ScreenCap: Default
+[2025-05-15 18:00:09.483][INF] Input: MinitouchAndAdbKey
+[2025-05-15 18:00:09.483][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-15 18:00:22.771][INF] 开始执行任务: 更新资源
+[2025-05-15 18:00:22.789][INF] 任务完成: 更新资源
+[2025-05-15 18:00:22.789][INF] 开始执行任务: 更新软件
+[2025-05-15 18:00:22.814][INF] 任务已全部完成！
+(用时 0h 0m 13s)
+[2025-05-15 18:00:34.363][ERR] 处理GitHub响应时发生错误: One or more errors occurred. (不知道这样的主机。 (api.github.com:443))
+[2025-05-15 18:00:34.388][ERR] System.Exception: 处理GitHub响应时发生错误: One or more errors occurred. (不知道这样的主机。 (api.github.com:443))
+   at MFAAvalonia.Helper.VersionChecker.GetLatestVersionAndDownloadUrlFromGithub(String& url, String& latestVersion, String owner, String repo) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 975
+   at MFAAvalonia.Helper.VersionChecker.CheckForMFAUpdates(Boolean isGithub) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 185
+[2025-05-15 18:00:34.388][INF] 任务完成: 更新软件
+[2025-05-15 18:00:38.403][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:00:38.429][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:00:38.857][INF] 正在连接至模拟器......
+[2025-05-15 18:00:38.950][INF] 截图耗时: 21ms(Default)
+[2025-05-15 18:00:38.955][INF] 开始任务: 每日分享
+[2025-05-15 18:01:05.225][INF] 开始任务: 火影情报社
+[2025-05-15 18:02:06.890][INF] 开始任务: 邮箱
+[2025-05-15 18:02:28.612][INF] 正在停止......
+[2025-05-15 18:02:30.479][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:02:30.496][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:02:30.610][INF] 正在连接至模拟器......
+[2025-05-15 18:02:30.610][INF] 已放弃本次任务
+[2025-05-15 18:02:30.677][INF] 截图耗时: 17ms(Default)
+[2025-05-15 18:02:30.678][INF] 开始任务: 每日分享
+[2025-05-15 18:02:33.465][INF] 开始任务: 火影情报社
+[2025-05-15 18:05:43.381][INF] 开始任务: 邮箱
+[2025-05-15 18:06:10.287][INF] 开始任务: 组织
+[2025-05-15 18:06:23.642][INF] 开始任务: 积分赛
+[2025-05-15 18:06:45.448][INF] 开始任务: 试炼
+[2025-05-15 18:06:49.445][INF] 正在停止......
+[2025-05-15 18:06:50.165][INF] 已放弃本次任务
+[2025-05-15 18:15:00.435][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:15:00.442][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:15:00.509][INF] 正在连接至模拟器......
+[2025-05-15 18:15:00.585][INF] 截图耗时: 18ms(Default)
+[2025-05-15 18:15:00.585][INF] 开始任务: 积分赛
+[2025-05-15 18:15:36.760][INF] 开始任务: 试炼
+[2025-05-15 18:15:46.368][INF] 正在停止......
+[2025-05-15 18:15:47.610][INF] 已放弃本次任务
+[2025-05-15 18:16:48.593][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:16:48.605][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:16:48.676][INF] 正在连接至模拟器......
+[2025-05-15 18:16:48.743][INF] 截图耗时: 16ms(Default)
+[2025-05-15 18:16:48.744][INF] 开始任务: 试炼
+[2025-05-15 18:17:17.223][INF] 开始任务: 丰饶
+[2025-05-15 18:18:39.146][INF] 开始任务: 小队突袭
+[2025-05-15 18:20:14.799][INF] 开始任务: 免费招募
+[2025-05-15 18:20:37.231][INF] 开始任务: 月签到和活动
+[2025-05-15 18:20:48.522][INF] 开始任务: 任务集会所（beta）
+[2025-05-15 18:21:38.327][INF] 开始任务: 刷体力(beta)
+[2025-05-15 18:21:59.836][INF] 开始任务: 忍法帖
+[2025-05-15 18:22:04.187][INF] 正在停止......
+[2025-05-15 18:22:05.394][INF] 已放弃本次任务
+[2025-05-15 18:22:45.577][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:22:45.588][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:22:45.651][INF] 正在连接至模拟器......
+[2025-05-15 18:22:45.730][INF] 截图耗时: 19ms(Default)
+[2025-05-15 18:22:45.730][INF] 开始任务: 小队突袭
+[2025-05-15 18:24:05.961][INF] 开始任务: 免费招募
+[2025-05-15 18:24:37.893][INF] 开始任务: 月签到和活动
+[2025-05-15 18:25:00.196][INF] 开始任务: 任务集会所（beta）
+[2025-05-15 18:25:26.745][INF] 开始任务: 刷体力(beta)
+[2025-05-15 18:26:21.449][INF] 正在停止......
+[2025-05-15 18:26:21.549][INF] 已放弃本次任务
+[2025-05-15 18:26:25.284][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:26:25.293][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-15 18:26:25.306][INF] 正在连接至模拟器......
+[2025-05-15 18:26:25.368][INF] 截图耗时: 15ms(Default)
+[2025-05-15 18:26:25.368][INF] 开始任务: 忍法帖
+[2025-05-15 18:27:24.981][INF] 开始任务: 活跃宝箱(beta)
+[2025-05-15 18:27:39.800][INF] 正在停止......
+[2025-05-15 18:27:39.819][INF] 已放弃本次任务
