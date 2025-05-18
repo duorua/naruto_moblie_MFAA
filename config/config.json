@@ -37,7 +37,7 @@
     {
       "name": "进入火影",
       "entry": "start_up",
-      "check": false,
+      "check": true,
       "option": [
         {
           "name": "加载时间选择",
@@ -52,52 +52,52 @@
     {
       "name": "开始游戏",
       "entry": "start_game",
-      "check": false
+      "check": true
     },
     {
       "name": "招财",
       "entry": "get_chopper",
-      "check": false
+      "check": true
     },
     {
       "name": "排行榜",
       "entry": "leaderboard",
-      "check": false
+      "check": true
     },
     {
       "name": "送体力",
       "entry": "give_energy",
-      "check": false
+      "check": true
     },
     {
       "name": "每日分享",
       "entry": "share",
-      "check": false
+      "check": true
     },
     {
       "name": "火影情报社",
       "entry": "naruto_club",
-      "check": false
+      "check": true
     },
     {
       "name": "邮箱",
       "entry": "mail",
-      "check": false
+      "check": true
     },
     {
       "name": "组织",
       "entry": "group",
-      "check": false
+      "check": true
     },
     {
       "name": "积分赛",
       "entry": "point_race",
-      "check": false
+      "check": true
     },
     {
       "name": "试炼",
       "entry": "practice_place",
-      "check": false,
+      "check": true,
       "option": [
         {
           "name": "不做修行",
@@ -112,12 +112,12 @@
     {
       "name": "丰饶",
       "entry": "rich_room",
-      "check": false
+      "check": true
     },
     {
       "name": "小队突袭",
       "entry": "team_dash",
-      "check": false,
+      "check": true,
       "option": [
         {
           "name": "等待自动战斗时间选择",
@@ -128,22 +128,22 @@
     {
       "name": "免费招募",
       "entry": "headhunt",
-      "check": false
+      "check": true
     },
     {
       "name": "月签到和活动",
       "entry": "activity",
-      "check": false
-    },
-    {
-      "name": "任务集会所（beta）",
-      "entry": "mission_office",
-      "check": false
+      "check": true
     },
     {
       "name": "刷体力(beta)",
       "entry": "use_energy",
-      "check": false
+      "check": true
+    },
+    {
+      "name": "任务集会所（beta）",
+      "entry": "mission_office",
+      "check": true
     },
     {
       "name": "忍法帖",
@@ -166,5 +166,5 @@
   },
   "EnableEdit": false,
   "UI.MainWindow.Width": "1453",
-  "UI.MainWindow.Height": "815.5"
+  "UI.MainWindow.Height": "865"
 }

@@ -1,0 +1,91 @@
+[2025-05-18 18:45:41.500][INF] 解析参数：{}
+[2025-05-18 18:45:42.354][INF] Loading Configurations...
+[2025-05-18 18:45:42.425][INF] Current Configuration: Default
+[2025-05-18 18:45:42.665][INF] 窗口初始大小设置为: 宽度=1453, 高度=815.5
+[2025-05-18 18:45:43.273][INF] 构造函数中列宽设置成功
+[2025-05-18 18:45:43.812][ERR] 总异常捕获：System.IO.InvalidDataException: Failed to load configuration from file 'D:\file\project\naruto_moblie_MFAA\appsettings.json'.
+ ---> System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedArrayPoolBytes, PooledByteBufferWriter extraPooledByteBufferWriter)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.Parse(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at MFAAvalonia.Configuration.GlobalConfiguration.LoadConfiguration() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Configuration\GlobalConfiguration.cs:line 24
+   at MFAAvalonia.Configuration.GlobalConfiguration.GetValue(String key, String defaultValue) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Configuration\GlobalConfiguration.cs:line 49
+   at MFAAvalonia.ViewModels.Pages.SettingsViewModel.Initialize() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\ViewModels\Pages\SettingsViewModel.cs:line 25
+   at MFAAvalonia.ViewModels.ViewModelBase..ctor() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\ViewModels\ViewModelBase.cs:line 13
+   at MFAAvalonia.ViewModels.Pages.SettingsViewModel..ctor() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\ViewModels\Pages\SettingsViewModel.cs:line 112
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MFAAvalonia.Helper.Instances.<>c__1`1.<Resolve>b__1_1() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\Instances.cs:line 42
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at MFAAvalonia.Helper.Instances.Resolve[T]() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\Instances.cs:line 38
+   at MFAAvalonia.Helper.Instances.get_SettingsViewModel() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\obj\AnyCPU\Release\net8.0-windows10.0.17763.0\generated\LazyStaticGenerator\LazyStaticGenerator.Generators.LazyStaticGenerator\Instances_LazyStatic.g.cs:line 36
+   at MFAAvalonia.Extensions.MaaFW.MaaProcessor.set_Interface(MaaInterface value) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Extensions\MaaFW\MaaProcessor.cs:line 84
+   at MFAAvalonia.Extensions.MaaFW.MaaProcessor.ReadInterface() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Extensions\MaaFW\MaaProcessor.cs:line 702
+   at MFAAvalonia.Extensions.MaaFW.MaaProcessor.InitializeData(Collection`1 dragItem) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Extensions\MaaFW\MaaProcessor.cs:line 714
+   at MFAAvalonia.Views.Pages.TaskQueueView..ctor() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Views\Pages\TaskQueueView.axaml.cs:line 57
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at MFAAvalonia.Extensions.ServiceProviderExtension.ProvideValue(IServiceProvider serviceProvider) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Extensions\ServiceProviderExtension.cs:line 13
+   at MFAAvalonia.Views.Windows.RootView.!XamlIlPopulate(IServiceProvider, RootView) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Views/Windows/RootView.axaml:line 125
+   at MFAAvalonia.Views.Windows.RootView.!XamlIlPopulateTrampoline(RootView)
+   at MFAAvalonia.Views.Windows.RootView.InitializeComponent(Boolean loadXaml) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\obj\AnyCPU\Release\net8.0-windows10.0.17763.0\generated\Avalonia.Generators\Avalonia.Generators.NameGenerator.AvaloniaNameSourceGenerator\MFAAvalonia.Views.Windows.RootView.g.cs:line 27
+   at MFAAvalonia.Views.Windows.RootView..ctor() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Views\Windows\RootView.axaml.cs:line 67
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at MFAAvalonia.Helper.ViewsHelper.TryCreateView(IServiceProvider provider, Type viewModelType, Control& view) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\ViewsHelper.cs:line 71
+   at MFAAvalonia.Helper.ViewsHelper.CreateView[TViewModel](IServiceProvider provider) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\ViewsHelper.cs:line 109
+   at MFAAvalonia.App.OnFrameworkInitializationCompleted() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\App.axaml.cs:line 62
+   at Avalonia.AppBuilder.SetupUnsafe()
+   at Avalonia.AppBuilder.Setup()
+   at Avalonia.AppBuilder.SetupWithLifetime(IApplicationLifetime lifetime)
+   at Avalonia.ClassicDesktopStyleApplicationLifetimeExtensions.StartWithClassicDesktopLifetime(AppBuilder builder, String[] args, ShutdownMode shutdownMode)
+   at MFAAvalonia.Program.Main(String[] args) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Program.cs:line 51
