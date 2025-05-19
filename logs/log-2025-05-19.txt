@@ -1,0 +1,44 @@
+[2025-05-19 12:24:06.593][INF] 解析参数：{}
+[2025-05-19 12:24:07.096][INF] Loading Configurations...
+[2025-05-19 12:24:07.140][INF] Current Configuration: Default
+[2025-05-19 12:24:07.282][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-19 12:24:07.723][INF] 构造函数中列宽设置成功
+[2025-05-19 12:24:08.096][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-19 12:24:08.667][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-19 12:24:09.155][INF] 窗口Loaded事件触发
+[2025-05-19 12:24:09.726][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-19 12:24:09.737][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-19 12:24:09.744][INF] 正在载入资源
+[2025-05-19 12:24:09.744][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-19 12:24:09.756][INF] 正在连接至模拟器......
+[2025-05-19 12:24:09.821][INF] GPU acceleration: Auto
+[2025-05-19 12:24:09.822][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-19 12:24:09.822][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-19 12:24:09.822][INF] ScreenCap: Default
+[2025-05-19 12:24:09.822][INF] Input: MinitouchAndAdbKey
+[2025-05-19 12:24:09.822][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-19 12:24:14.211][WRN] 初始化控制器时发生错误！
+[2025-05-19 12:24:14.251][ERR] MaaFramework.Binding.MaaJobStatusException: IMaaController failed to connect to the device. MaaJobStatus cannot be Failed.
+System.Object[]
+   at MaaFramework.Binding.MaaJobStatusExtensions.ThrowIfNot(MaaJobStatus current, MaaJobStatus correct, String message, Object[] args) in D:\a\MaaFramework.Binding.CSharp\MaaFramework.Binding.CSharp\src\MaaFramework.Binding\Extensions\MaaJobStatusExtensions.cs:line 31
+   at MaaFramework.Binding.MaaAdbController..ctor(String adbPath, String adbSerial, AdbScreencapMethods screencapMethods, AdbInputMethods inputMethods, String config, String agentPath, LinkOption link, CheckStatusOption check) in D:\a\MaaFramework.Binding.CSharp\MaaFramework.Binding.CSharp\src\MaaFramework.Binding.Native\MaaController\MaaAdbController.cs:line 43
+   at MFAAvalonia.Extensions.MaaFW.MaaProcessor.InitializeController(Boolean isAdb) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Extensions\MaaFW\MaaProcessor.cs:line 600
+   at MFAAvalonia.Extensions.MaaFW.MaaProcessor.<>c__DisplayClass46_0.<InitializeMaaTasker>b__3() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Extensions\MaaFW\MaaProcessor.cs:line 186
+   at MFAAvalonia.Helper.TaskManager.<>c__DisplayClass4_0`1.<RunTaskAsync>b__0() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\TaskManager.cs:line 158
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at MFAAvalonia.Helper.TaskManager.RunTaskAsync[TResult](Func`1 function, CancellationToken token, Action`1 handleError, String name, Boolean catchException, Boolean shouldLog) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\TaskManager.cs:line 155
+[2025-05-19 12:24:14.256][INF] 开始执行任务: 更新资源
+[2025-05-19 12:24:14.258][INF] 任务已全部完成！
+(用时 0h 0m 4s)
+[2025-05-19 12:24:14.258][INF] 任务完成: 更新资源
+[2025-05-19 12:24:14.258][INF] 开始执行任务: 更新软件
+[2025-05-19 12:24:14.900][ERR] 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+[2025-05-19 12:24:14.902][ERR] System.Exception: 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+   at MFAAvalonia.Helper.VersionChecker.GetLatestVersionAndDownloadUrlFromGithub(String& url, String& latestVersion, String owner, String repo) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 975
+   at MFAAvalonia.Helper.VersionChecker.CheckForMFAUpdates(Boolean isGithub) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 185
+[2025-05-19 12:24:14.902][INF] 任务完成: 更新软件
