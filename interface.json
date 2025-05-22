@@ -37,6 +37,11 @@
             "check": true
         },
         {
+            "name": "轻松助手",
+            "entry": "easy_helper",
+            "check": true
+        },
+        {
             "name": "招财",
             "entry": "get_chopper",
             "check": true
