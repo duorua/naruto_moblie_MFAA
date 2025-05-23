@@ -129,6 +129,10 @@
         {
             "name": "活跃宝箱(beta)",
             "entry": "liveness_award"
+        },
+        {
+            "name": "百忍大战",
+            "entry": "hundred_ninjia"
         }
     ],
     "option": {
