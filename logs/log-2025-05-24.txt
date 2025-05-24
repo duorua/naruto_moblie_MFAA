@@ -1,0 +1,37 @@
+[2025-05-24 13:13:40.946][INF] 解析参数：{}
+[2025-05-24 13:13:41.522][INF] Loading Configurations...
+[2025-05-24 13:13:41.582][INF] Current Configuration: Default
+[2025-05-24 13:13:41.759][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-24 13:13:42.217][INF] 构造函数中列宽设置成功
+[2025-05-24 13:13:42.606][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-24 13:13:43.128][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-24 13:13:43.624][INF] 窗口Loaded事件触发
+[2025-05-24 13:13:44.244][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-24 13:13:44.257][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-24 13:13:44.263][INF] 正在载入资源
+[2025-05-24 13:13:44.263][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-24 13:13:44.277][INF] 正在连接至模拟器......
+[2025-05-24 13:13:44.399][INF] GPU acceleration: Auto
+[2025-05-24 13:13:44.399][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-24 13:13:44.399][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-24 13:13:44.399][INF] ScreenCap: Default
+[2025-05-24 13:13:44.399][INF] Input: MinitouchAndAdbKey
+[2025-05-24 13:13:44.399][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-24 13:13:50.410][INF] 开始执行任务: 更新资源
+[2025-05-24 13:13:50.414][INF] 任务完成: 更新资源
+[2025-05-24 13:13:50.414][INF] 任务已全部完成！
+(用时 0h 0m 6s)
+[2025-05-24 13:13:50.415][INF] 开始执行任务: 更新软件
+[2025-05-24 13:13:51.019][ERR] 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+[2025-05-24 13:13:51.035][ERR] System.Exception: 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+   at MFAAvalonia.Helper.VersionChecker.GetLatestVersionAndDownloadUrlFromGithub(String& url, String& latestVersion, String owner, String repo) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 975
+   at MFAAvalonia.Helper.VersionChecker.CheckForMFAUpdates(Boolean isGithub) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 185
+[2025-05-24 13:13:51.035][INF] 任务完成: 更新软件
+[2025-05-24 13:15:53.246][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-24 13:15:53.263][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-24 13:15:53.512][INF] 正在连接至模拟器......
+[2025-05-24 13:15:53.575][INF] 截图耗时: 14ms(Default)
+[2025-05-24 13:15:53.577][INF] 开始任务: 招财
+[2025-05-24 13:16:04.832][INF] 开始任务: 排行榜
+[2025-05-24 13:17:26.470][INF] 正在停止......
+[2025-05-24 13:17:26.729][INF] 已放弃本次任务

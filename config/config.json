@@ -37,7 +37,7 @@
     {
       "name": "进入火影",
       "entry": "start_up",
-      "check": true,
+      "check": false,
       "option": [
         {
           "name": "加载时间选择",
@@ -52,12 +52,12 @@
     {
       "name": "开始游戏",
       "entry": "start_game",
-      "check": true
+      "check": false
     },
     {
       "name": "轻松助手",
       "entry": "easy_helper",
-      "check": true
+      "check": false
     },
     {
       "name": "招财",
@@ -106,7 +106,7 @@
       "option": [
         {
           "name": "不做修行",
-          "index": 0
+          "index": 1
         },
         {
           "name": "等待生存扫荡时间选择",
@@ -159,6 +159,11 @@
       "name": "活跃宝箱(beta)",
       "entry": "liveness_award",
       "check": true
+    },
+    {
+      "name": "百忍大战",
+      "entry": "hundred_ninjia",
+      "check": false
     }
   ],
   "AdbDevice": {

@@ -1,0 +1,68 @@
+[2025-05-23 21:49:22.528][INF] 解析参数：{}
+[2025-05-23 21:49:23.066][INF] Loading Configurations...
+[2025-05-23 21:49:23.110][INF] Current Configuration: Default
+[2025-05-23 21:49:23.260][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-23 21:49:23.704][INF] 构造函数中列宽设置成功
+[2025-05-23 21:49:24.062][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:49:24.727][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:49:25.211][INF] 窗口Loaded事件触发
+[2025-05-23 21:49:25.828][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:49:25.842][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:49:25.851][INF] 正在载入资源
+[2025-05-23 21:49:25.852][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-23 21:49:25.866][INF] 正在连接至模拟器......
+[2025-05-23 21:49:25.962][INF] GPU acceleration: Auto
+[2025-05-23 21:49:25.963][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-23 21:49:25.963][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-23 21:49:25.963][INF] ScreenCap: Default
+[2025-05-23 21:49:25.963][INF] Input: MinitouchAndAdbKey
+[2025-05-23 21:49:25.963][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-23 21:49:33.375][INF] 开始执行任务: 更新资源
+[2025-05-23 21:49:33.380][INF] 任务完成: 更新资源
+[2025-05-23 21:49:33.380][INF] 开始执行任务: 更新软件
+[2025-05-23 21:49:33.384][INF] 任务已全部完成！
+(用时 0h 0m 7s)
+[2025-05-23 21:49:34.962][INF] 任务完成: 更新软件
+[2025-05-23 21:50:01.341][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:01.355][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:01.412][INF] 正在连接至模拟器......
+[2025-05-23 21:50:01.530][INF] 截图耗时: 28ms(Default)
+[2025-05-23 21:50:01.537][INF] 开始任务: 进入火影
+[2025-05-23 21:50:06.777][INF] 正在停止......
+[2025-05-23 21:50:11.701][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:11.706][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:11.713][INF] 正在连接至模拟器......
+[2025-05-23 21:50:11.761][INF] 截图耗时: 11ms(Default)
+[2025-05-23 21:50:11.761][INF] 开始任务: 百忍大战
+[2025-05-23 21:50:19.682][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:19.687][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:19.694][INF] 正在连接至模拟器......
+[2025-05-23 21:50:19.748][INF] 截图耗时: 13ms(Default)
+[2025-05-23 21:50:19.748][INF] 开始任务: 百忍大战
+[2025-05-23 21:50:34.566][INF] 解析参数：{}
+[2025-05-23 21:50:35.093][INF] Loading Configurations...
+[2025-05-23 21:50:35.140][INF] Current Configuration: Default
+[2025-05-23 21:50:35.286][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-23 21:50:35.736][INF] 构造函数中列宽设置成功
+[2025-05-23 21:50:36.081][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:36.605][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:37.027][INF] 窗口Loaded事件触发
+[2025-05-23 21:50:37.613][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:37.624][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:37.630][INF] 正在载入资源
+[2025-05-23 21:50:37.630][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-23 21:50:37.644][INF] 正在连接至模拟器......
+[2025-05-23 21:50:37.726][INF] GPU acceleration: Auto
+[2025-05-23 21:50:37.727][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-23 21:50:37.727][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-23 21:50:37.727][INF] ScreenCap: Default
+[2025-05-23 21:50:37.727][INF] Input: MinitouchAndAdbKey
+[2025-05-23 21:50:37.727][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-23 21:50:38.652][INF] 正在停止......
+[2025-05-23 21:50:38.667][INF] 已放弃本次任务
+[2025-05-23 21:50:42.279][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:42.292][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-23 21:50:42.327][INF] 正在连接至模拟器......
+[2025-05-23 21:50:44.563][INF] 截图用时较长: 558ms(Default)
+[2025-05-23 21:50:44.563][INF] 开始任务: 百忍大战
+[2025-05-23 22:04:19.050][INF] 正在停止......
