@@ -1,0 +1,274 @@
+[2025-05-25 12:10:06.380][INF] 解析参数：{}
+[2025-05-25 12:10:07.099][INF] Loading Configurations...
+[2025-05-25 12:10:07.164][INF] Current Configuration: Default
+[2025-05-25 12:10:07.367][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-25 12:10:07.976][INF] 构造函数中列宽设置成功
+[2025-05-25 12:10:08.448][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:10:08.867][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:10:09.572][INF] 窗口Loaded事件触发
+[2025-05-25 12:10:10.802][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:10:10.866][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:10:10.889][INF] 正在载入资源
+[2025-05-25 12:10:10.889][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-25 12:10:10.929][INF] 正在连接至模拟器......
+[2025-05-25 12:10:11.095][INF] GPU acceleration: Auto
+[2025-05-25 12:10:11.096][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-25 12:10:11.096][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-25 12:10:11.096][INF] ScreenCap: Default
+[2025-05-25 12:10:11.096][INF] Input: MinitouchAndAdbKey
+[2025-05-25 12:10:11.096][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-25 12:10:16.849][INF] 开始执行任务: 更新资源
+[2025-05-25 12:10:16.853][INF] 任务完成: 更新资源
+[2025-05-25 12:10:16.853][INF] 开始执行任务: 更新软件
+[2025-05-25 12:10:16.856][INF] 任务已全部完成！
+(用时 0h 0m 5s)
+[2025-05-25 12:10:17.446][ERR] 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+[2025-05-25 12:10:17.460][ERR] System.Exception: 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+   at MFAAvalonia.Helper.VersionChecker.GetLatestVersionAndDownloadUrlFromGithub(String& url, String& latestVersion, String owner, String repo) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 975
+   at MFAAvalonia.Helper.VersionChecker.CheckForMFAUpdates(Boolean isGithub) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 185
+[2025-05-25 12:10:17.460][INF] 任务完成: 更新软件
+[2025-05-25 12:11:17.323][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:11:17.339][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:11:17.634][INF] 正在连接至模拟器......
+[2025-05-25 12:11:17.722][INF] 截图耗时: 21ms(Default)
+[2025-05-25 12:11:17.726][INF] 开始任务: 进入火影
+[2025-05-25 12:11:36.298][INF] 解析参数：{}
+[2025-05-25 12:11:36.879][INF] Loading Configurations...
+[2025-05-25 12:11:36.928][INF] Current Configuration: Default
+[2025-05-25 12:11:37.088][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-25 12:11:37.586][INF] 构造函数中列宽设置成功
+[2025-05-25 12:11:37.926][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:11:38.478][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:11:38.925][INF] 窗口Loaded事件触发
+[2025-05-25 12:11:39.535][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:11:39.548][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:11:39.556][INF] 正在载入资源
+[2025-05-25 12:11:39.556][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-25 12:11:39.571][INF] 正在连接至模拟器......
+[2025-05-25 12:11:39.663][INF] GPU acceleration: Auto
+[2025-05-25 12:11:39.663][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-25 12:11:39.663][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-25 12:11:39.663][INF] ScreenCap: Default
+[2025-05-25 12:11:39.663][INF] Input: MinitouchAndAdbKey
+[2025-05-25 12:11:39.663][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-25 12:11:44.891][INF] 开始执行任务: 更新资源
+[2025-05-25 12:11:44.895][INF] 任务完成: 更新资源
+[2025-05-25 12:11:44.895][INF] 开始执行任务: 更新软件
+[2025-05-25 12:11:44.895][INF] 任务已全部完成！
+(用时 0h 0m 5s)
+[2025-05-25 12:11:44.996][ERR] 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+[2025-05-25 12:11:45.008][ERR] System.Exception: 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+   at MFAAvalonia.Helper.VersionChecker.GetLatestVersionAndDownloadUrlFromGithub(String& url, String& latestVersion, String owner, String repo) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 975
+   at MFAAvalonia.Helper.VersionChecker.CheckForMFAUpdates(Boolean isGithub) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 185
+[2025-05-25 12:11:45.008][INF] 任务完成: 更新软件
+[2025-05-25 12:11:59.704][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:11:59.722][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:12:00.058][INF] 正在连接至模拟器......
+[2025-05-25 12:12:00.188][INF] 截图耗时: 31ms(Default)
+[2025-05-25 12:12:00.196][INF] 开始任务: 进入火影
+[2025-05-25 12:12:31.686][INF] 开始任务: 开始游戏
+[2025-05-25 12:17:36.881][INF] 解析参数：{}
+[2025-05-25 12:17:37.439][INF] Loading Configurations...
+[2025-05-25 12:17:37.486][INF] Current Configuration: Default
+[2025-05-25 12:17:37.636][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-25 12:17:38.095][INF] 构造函数中列宽设置成功
+[2025-05-25 12:17:38.418][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:17:39.002][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:17:39.442][INF] 窗口Loaded事件触发
+[2025-05-25 12:17:40.093][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:17:40.106][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:17:40.123][INF] 正在载入资源
+[2025-05-25 12:17:40.124][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-25 12:17:40.138][INF] 正在连接至模拟器......
+[2025-05-25 12:17:40.229][INF] GPU acceleration: Auto
+[2025-05-25 12:17:40.230][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-25 12:17:40.231][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-25 12:17:40.231][INF] ScreenCap: Default
+[2025-05-25 12:17:40.231][INF] Input: MinitouchAndAdbKey
+[2025-05-25 12:17:40.231][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-25 12:17:49.171][INF] 开始执行任务: 更新资源
+[2025-05-25 12:17:49.175][INF] 任务完成: 更新资源
+[2025-05-25 12:17:49.175][INF] 开始执行任务: 更新软件
+[2025-05-25 12:17:49.177][INF] 任务已全部完成！
+(用时 0h 0m 9s)
+[2025-05-25 12:17:49.295][ERR] 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+[2025-05-25 12:17:49.306][ERR] System.Exception: 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+   at MFAAvalonia.Helper.VersionChecker.GetLatestVersionAndDownloadUrlFromGithub(String& url, String& latestVersion, String owner, String repo) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 975
+   at MFAAvalonia.Helper.VersionChecker.CheckForMFAUpdates(Boolean isGithub) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 185
+[2025-05-25 12:17:49.306][INF] 任务完成: 更新软件
+[2025-05-25 12:18:03.273][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:18:03.289][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:18:03.554][INF] 正在连接至模拟器......
+[2025-05-25 12:18:03.640][INF] 截图耗时: 20ms(Default)
+[2025-05-25 12:18:03.640][INF] 开始任务: 招财
+[2025-05-25 12:19:12.822][INF] 正在停止......
+[2025-05-25 12:21:03.478][INF] 解析参数：{}
+[2025-05-25 12:21:04.014][INF] Loading Configurations...
+[2025-05-25 12:21:04.059][INF] Current Configuration: Default
+[2025-05-25 12:21:04.207][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-25 12:21:04.655][INF] 构造函数中列宽设置成功
+[2025-05-25 12:21:04.983][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:21:05.497][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:21:05.908][INF] 窗口Loaded事件触发
+[2025-05-25 12:21:06.471][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:21:06.482][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:21:06.490][INF] 正在载入资源
+[2025-05-25 12:21:06.490][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-25 12:21:06.500][INF] 正在连接至模拟器......
+[2025-05-25 12:21:06.577][INF] GPU acceleration: Auto
+[2025-05-25 12:21:06.578][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-25 12:21:06.578][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-25 12:21:06.578][INF] ScreenCap: Default
+[2025-05-25 12:21:06.578][INF] Input: MinitouchAndAdbKey
+[2025-05-25 12:21:06.578][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-25 12:21:14.903][INF] 开始执行任务: 更新资源
+[2025-05-25 12:21:14.907][INF] 任务完成: 更新资源
+[2025-05-25 12:21:14.907][INF] 开始执行任务: 更新软件
+[2025-05-25 12:21:14.907][INF] 任务已全部完成！
+(用时 0h 0m 8s)
+[2025-05-25 12:21:15.014][ERR] 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+[2025-05-25 12:21:15.028][ERR] System.Exception: 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+   at MFAAvalonia.Helper.VersionChecker.GetLatestVersionAndDownloadUrlFromGithub(String& url, String& latestVersion, String owner, String repo) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 975
+   at MFAAvalonia.Helper.VersionChecker.CheckForMFAUpdates(Boolean isGithub) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 185
+[2025-05-25 12:21:15.028][INF] 任务完成: 更新软件
+[2025-05-25 12:21:17.455][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:21:17.471][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:21:17.806][INF] 正在连接至模拟器......
+[2025-05-25 12:21:17.892][INF] 截图耗时: 20ms(Default)
+[2025-05-25 12:21:17.892][INF] 开始任务: 招财
+[2025-05-25 12:21:33.303][INF] 开始任务: 排行榜
+[2025-05-25 12:21:35.304][INF] 正在停止......
+[2025-05-25 12:21:35.674][INF] 已放弃本次任务
+[2025-05-25 12:22:05.293][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:22:05.300][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:22:05.400][INF] 正在连接至模拟器......
+[2025-05-25 12:22:05.469][INF] 截图耗时: 16ms(Default)
+[2025-05-25 12:22:05.469][INF] 开始任务: 招财
+[2025-05-25 12:27:17.301][INF] 解析参数：{}
+[2025-05-25 12:27:17.863][INF] Loading Configurations...
+[2025-05-25 12:27:17.913][INF] Current Configuration: Default
+[2025-05-25 12:27:18.080][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-25 12:27:18.533][INF] 构造函数中列宽设置成功
+[2025-05-25 12:27:18.855][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:27:19.593][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:27:20.062][INF] 窗口Loaded事件触发
+[2025-05-25 12:27:20.706][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:27:20.719][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:27:20.727][INF] 正在载入资源
+[2025-05-25 12:27:20.727][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-25 12:27:20.740][INF] 正在连接至模拟器......
+[2025-05-25 12:27:20.832][INF] GPU acceleration: Auto
+[2025-05-25 12:27:20.833][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-25 12:27:20.833][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-25 12:27:20.833][INF] ScreenCap: Default
+[2025-05-25 12:27:20.833][INF] Input: MinitouchAndAdbKey
+[2025-05-25 12:27:20.833][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-25 12:27:29.779][INF] 开始执行任务: 更新资源
+[2025-05-25 12:27:29.785][INF] 任务完成: 更新资源
+[2025-05-25 12:27:29.786][INF] 开始执行任务: 更新软件
+[2025-05-25 12:27:29.786][INF] 任务已全部完成！
+(用时 0h 0m 9s)
+[2025-05-25 12:27:29.903][ERR] 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+[2025-05-25 12:27:29.917][ERR] System.Exception: 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+   at MFAAvalonia.Helper.VersionChecker.GetLatestVersionAndDownloadUrlFromGithub(String& url, String& latestVersion, String owner, String repo) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 975
+   at MFAAvalonia.Helper.VersionChecker.CheckForMFAUpdates(Boolean isGithub) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 185
+[2025-05-25 12:27:29.917][INF] 任务完成: 更新软件
+[2025-05-25 12:27:36.836][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:27:36.848][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:27:37.172][INF] 正在连接至模拟器......
+[2025-05-25 12:27:37.250][INF] 截图耗时: 18ms(Default)
+[2025-05-25 12:27:37.250][INF] 开始任务: 招财
+[2025-05-25 12:27:53.128][INF] 开始任务: 排行榜
+[2025-05-25 12:28:00.093][INF] 开始任务: 送体力
+[2025-05-25 12:28:16.111][INF] 开始任务: 每日分享
+[2025-05-25 12:28:35.872][INF] 开始任务: 火影情报社
+[2025-05-25 12:30:44.090][INF] 开始任务: 邮箱
+[2025-05-25 12:31:00.713][INF] 开始任务: 组织
+[2025-05-25 12:31:43.866][INF] 开始任务: 积分赛
+[2025-05-25 12:32:13.911][INF] 开始任务: 试炼
+[2025-05-25 12:33:04.109][INF] 开始任务: 丰饶
+[2025-05-25 12:38:29.650][INF] 解析参数：{}
+[2025-05-25 12:38:30.184][INF] Loading Configurations...
+[2025-05-25 12:38:30.231][INF] Current Configuration: Default
+[2025-05-25 12:38:30.376][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-25 12:38:30.828][INF] 构造函数中列宽设置成功
+[2025-05-25 12:38:31.133][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:38:31.672][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:38:32.120][INF] 窗口Loaded事件触发
+[2025-05-25 12:38:32.728][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:38:32.740][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:38:32.746][INF] 正在载入资源
+[2025-05-25 12:38:32.746][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-25 12:38:32.760][INF] 正在连接至模拟器......
+[2025-05-25 12:38:32.848][INF] GPU acceleration: Auto
+[2025-05-25 12:38:32.849][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-25 12:38:32.849][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-25 12:38:32.849][INF] ScreenCap: Default
+[2025-05-25 12:38:32.849][INF] Input: MinitouchAndAdbKey
+[2025-05-25 12:38:32.849][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-25 12:39:09.246][INF] 解析参数：{}
+[2025-05-25 12:39:09.788][INF] Loading Configurations...
+[2025-05-25 12:39:09.835][INF] Current Configuration: Default
+[2025-05-25 12:39:09.991][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-25 12:39:10.412][INF] 构造函数中列宽设置成功
+[2025-05-25 12:39:10.705][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:39:11.110][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:39:11.549][INF] 窗口Loaded事件触发
+[2025-05-25 12:39:12.110][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:39:12.122][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:39:12.129][INF] 正在载入资源
+[2025-05-25 12:39:12.129][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-25 12:39:12.141][INF] 正在连接至模拟器......
+[2025-05-25 12:39:12.221][INF] GPU acceleration: Auto
+[2025-05-25 12:39:12.222][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-25 12:39:12.222][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-25 12:39:12.222][INF] ScreenCap: Default
+[2025-05-25 12:39:12.222][INF] Input: MinitouchAndAdbKey
+[2025-05-25 12:39:12.222][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-25 12:39:19.968][INF] 开始执行任务: 更新资源
+[2025-05-25 12:39:19.976][INF] 任务完成: 更新资源
+[2025-05-25 12:39:19.976][INF] 开始执行任务: 更新软件
+[2025-05-25 12:39:19.976][INF] 任务已全部完成！
+(用时 0h 0m 7s)
+[2025-05-25 12:39:20.080][ERR] 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+[2025-05-25 12:39:20.092][ERR] System.Exception: 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+   at MFAAvalonia.Helper.VersionChecker.GetLatestVersionAndDownloadUrlFromGithub(String& url, String& latestVersion, String owner, String repo) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 975
+   at MFAAvalonia.Helper.VersionChecker.CheckForMFAUpdates(Boolean isGithub) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\VersionChecker.cs:line 185
+[2025-05-25 12:39:20.093][INF] 任务完成: 更新软件
+[2025-05-25 12:39:43.269][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:39:43.284][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:39:43.399][INF] 正在连接至模拟器......
+[2025-05-25 12:39:43.466][INF] 截图耗时: 16ms(Default)
+[2025-05-25 12:39:43.467][INF] 开始任务: 小队突袭
+[2025-05-25 12:41:40.459][INF] 开始任务: 免费招募
+[2025-05-25 12:42:02.329][INF] 开始任务: 月签到和活动
+[2025-05-25 12:42:23.943][INF] 开始任务: 刷体力(beta)
+[2025-05-25 12:43:02.963][INF] 开始任务: 任务集会所（beta）
+[2025-05-25 12:43:27.492][INF] 开始任务: 忍法帖
+[2025-05-25 12:43:34.207][INF] 开始任务: 活跃宝箱(beta)
+[2025-05-25 12:43:57.029][INF] 正在停止......
+[2025-05-25 12:43:57.410][INF] 已放弃本次任务
+[2025-05-25 12:44:17.028][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:44:17.041][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 12:44:17.056][INF] 正在连接至模拟器......
+[2025-05-25 12:44:17.104][INF] 截图耗时: 11ms(Default)
+[2025-05-25 12:44:17.104][INF] 开始任务: 任务集会所（beta）
+[2025-05-25 21:23:11.948][INF] 解析参数：{}
+[2025-05-25 21:23:12.482][INF] Loading Configurations...
+[2025-05-25 21:23:12.526][INF] Current Configuration: Default
+[2025-05-25 21:23:12.679][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-25 21:23:13.116][INF] 构造函数中列宽设置成功
+[2025-05-25 21:23:13.466][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 21:23:13.897][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 21:23:14.363][INF] 窗口Loaded事件触发
+[2025-05-25 21:23:14.991][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 21:23:15.006][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 21:23:15.014][INF] 正在载入资源
+[2025-05-25 21:23:15.014][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-25 21:23:15.029][INF] 正在连接至模拟器......
+[2025-05-25 21:23:15.145][INF] GPU acceleration: Auto
+[2025-05-25 21:23:15.146][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-25 21:23:15.146][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-25 21:23:15.146][INF] ScreenCap: Default
+[2025-05-25 21:23:15.146][INF] Input: MinitouchAndAdbKey
+[2025-05-25 21:23:15.146][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
