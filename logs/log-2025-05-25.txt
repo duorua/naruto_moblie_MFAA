@@ -272,3 +272,36 @@
 [2025-05-25 21:23:15.146][INF] ScreenCap: Default
 [2025-05-25 21:23:15.146][INF] Input: MinitouchAndAdbKey
 [2025-05-25 21:23:15.146][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-25 21:28:29.767][INF] 解析参数：{}
+[2025-05-25 21:28:30.337][INF] Loading Configurations...
+[2025-05-25 21:28:30.389][INF] Current Configuration: Default
+[2025-05-25 21:28:30.539][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-25 21:28:30.995][INF] 构造函数中列宽设置成功
+[2025-05-25 21:28:31.317][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 21:28:31.745][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 21:28:32.246][INF] 窗口Loaded事件触发
+[2025-05-25 21:28:32.823][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 21:28:32.881][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-25 21:28:32.888][INF] 正在载入资源
+[2025-05-25 21:28:32.888][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-25 21:28:32.902][INF] 正在连接至模拟器......
+[2025-05-25 21:28:32.958][ERR] MaaFramework.Binding.MaaJobStatusException: IMaaResource failed to load resources. MaaJobStatus cannot be Failed.
+System.Object[]
+   at MaaFramework.Binding.MaaJobStatusExtensions.ThrowIfNot(MaaJobStatus current, MaaJobStatus correct, String message, Object[] args) in D:\a\MaaFramework.Binding.CSharp\MaaFramework.Binding.CSharp\src\MaaFramework.Binding\Extensions\MaaJobStatusExtensions.cs:line 31
+   at MaaFramework.Binding.MaaResource..ctor(CheckStatusOption check, IEnumerable`1 bundlePaths) in D:\a\MaaFramework.Binding.CSharp\MaaFramework.Binding.CSharp\src\MaaFramework.Binding.Native\MaaResource.cs:line 76
+   at MaaFramework.Binding.MaaResource..ctor(IEnumerable`1 bundlePaths) in D:\a\MaaFramework.Binding.CSharp\MaaFramework.Binding.CSharp\src\MaaFramework.Binding.Native\MaaResource.cs:line 61
+   at MFAAvalonia.Extensions.MaaFW.MaaProcessor.<>c__DisplayClass46_1.<InitializeMaaTasker>b__1() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Extensions\MaaFW\MaaProcessor.cs:line 163
+   at MFAAvalonia.Helper.TaskManager.<>c__DisplayClass4_0`1.<RunTaskAsync>b__0() in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\TaskManager.cs:line 158
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at MFAAvalonia.Helper.TaskManager.RunTaskAsync[TResult](Func`1 function, CancellationToken token, Action`1 handleError, String name, Boolean catchException, Boolean shouldLog) in D:\a\MFAAvalonia\MFAAvalonia\MFAAvalonia\Helper\TaskManager.cs:line 155
+[2025-05-25 21:28:32.962][INF] 开始执行任务: 更新资源
+[2025-05-25 21:28:32.966][INF] 任务已全部完成！
+(用时 0h 0m 0s)
+[2025-05-25 21:28:32.967][INF] 任务完成: 更新资源
+[2025-05-25 21:28:32.968][INF] 开始执行任务: 更新软件
+[2025-05-25 21:28:33.967][INF] 任务完成: 更新软件
