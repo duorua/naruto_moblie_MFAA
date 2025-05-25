@@ -120,15 +120,18 @@
         },
         {
             "name": "任务集会所（beta）",
-            "entry": "mission_office"
+            "entry": "mission_office",
+            "check": true
         },
         {
             "name": "刷体力(beta)",
-            "entry": "use_energy"
+            "entry": "use_energy",
+            "check": true
         },
         {
             "name": "活跃宝箱(beta)",
-            "entry": "liveness_award"
+            "entry": "liveness_award",
+            "check": true
         },
         {
             "name": "百忍大战",
