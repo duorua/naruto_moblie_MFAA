@@ -1,0 +1,127 @@
+[2025-05-26 12:18:27.929][INF] 解析参数：{}
+[2025-05-26 12:18:28.656][INF] Loading Configurations...
+[2025-05-26 12:18:28.720][INF] Current Configuration: Default
+[2025-05-26 12:18:28.927][INF] 窗口初始大小设置为: 宽度=1453, 高度=865
+[2025-05-26 12:18:29.545][INF] 构造函数中列宽设置成功
+[2025-05-26 12:18:30.112][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-26 12:18:30.116][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Activity.json
+[2025-05-26 12:18:30.129][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Easy_helper.json
+[2025-05-26 12:18:30.131][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Get_chopper.json
+[2025-05-26 12:18:30.133][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Give_energy.json
+[2025-05-26 12:18:30.134][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Group.json
+[2025-05-26 12:18:30.137][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Headhunt.json
+[2025-05-26 12:18:30.138][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Hundred_ninjia.json
+[2025-05-26 12:18:30.140][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Leaderboard.json
+[2025-05-26 12:18:30.140][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Liveness_award.json
+[2025-05-26 12:18:30.141][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Mail.json
+[2025-05-26 12:18:30.142][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Mission_office.json
+[2025-05-26 12:18:30.146][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Naruto_club.json
+[2025-05-26 12:18:30.148][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Ninjia_book.json
+[2025-05-26 12:18:30.150][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Point_race.json
+[2025-05-26 12:18:30.151][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Practice_place.json
+[2025-05-26 12:18:30.152][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Rich_room.json
+[2025-05-26 12:18:30.153][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Secret_realm.json
+[2025-05-26 12:18:30.154][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Share.json
+[2025-05-26 12:18:30.155][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Shop.json
+[2025-05-26 12:18:30.155][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Startgame.json
+[2025-05-26 12:18:30.156][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Startup.json
+[2025-05-26 12:18:30.157][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Team_dash.json
+[2025-05-26 12:18:30.159][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Use_energy.json
+[2025-05-26 12:18:30.736][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-26 12:18:30.737][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Activity.json
+[2025-05-26 12:18:30.737][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Easy_helper.json
+[2025-05-26 12:18:30.738][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Get_chopper.json
+[2025-05-26 12:18:30.739][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Give_energy.json
+[2025-05-26 12:18:30.739][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Group.json
+[2025-05-26 12:18:30.740][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Headhunt.json
+[2025-05-26 12:18:30.740][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Hundred_ninjia.json
+[2025-05-26 12:18:30.741][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Leaderboard.json
+[2025-05-26 12:18:30.741][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Liveness_award.json
+[2025-05-26 12:18:30.742][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Mail.json
+[2025-05-26 12:18:30.742][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Mission_office.json
+[2025-05-26 12:18:30.744][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Naruto_club.json
+[2025-05-26 12:18:30.745][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Ninjia_book.json
+[2025-05-26 12:18:30.746][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Point_race.json
+[2025-05-26 12:18:30.746][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Practice_place.json
+[2025-05-26 12:18:30.747][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Rich_room.json
+[2025-05-26 12:18:30.748][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Secret_realm.json
+[2025-05-26 12:18:30.748][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Share.json
+[2025-05-26 12:18:30.748][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Shop.json
+[2025-05-26 12:18:30.749][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Startgame.json
+[2025-05-26 12:18:30.749][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Startup.json
+[2025-05-26 12:18:30.749][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Team_dash.json
+[2025-05-26 12:18:30.750][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Use_energy.json
+[2025-05-26 12:18:31.606][INF] 窗口Loaded事件触发
+[2025-05-26 12:18:32.592][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-26 12:18:32.592][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Activity.json
+[2025-05-26 12:18:32.593][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Easy_helper.json
+[2025-05-26 12:18:32.593][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Get_chopper.json
+[2025-05-26 12:18:32.594][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Give_energy.json
+[2025-05-26 12:18:32.594][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Group.json
+[2025-05-26 12:18:32.595][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Headhunt.json
+[2025-05-26 12:18:32.596][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Hundred_ninjia.json
+[2025-05-26 12:18:32.596][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Leaderboard.json
+[2025-05-26 12:18:32.596][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Liveness_award.json
+[2025-05-26 12:18:32.597][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Mail.json
+[2025-05-26 12:18:32.597][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Mission_office.json
+[2025-05-26 12:18:32.599][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Naruto_club.json
+[2025-05-26 12:18:32.600][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Ninjia_book.json
+[2025-05-26 12:18:32.601][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Point_race.json
+[2025-05-26 12:18:32.602][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Practice_place.json
+[2025-05-26 12:18:32.602][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Rich_room.json
+[2025-05-26 12:18:32.603][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Secret_realm.json
+[2025-05-26 12:18:32.604][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Share.json
+[2025-05-26 12:18:32.604][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Shop.json
+[2025-05-26 12:18:32.604][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Startgame.json
+[2025-05-26 12:18:32.605][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Startup.json
+[2025-05-26 12:18:32.605][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Team_dash.json
+[2025-05-26 12:18:32.606][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Use_energy.json
+[2025-05-26 12:18:32.607][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-26 12:18:32.615][INF] 正在载入资源
+[2025-05-26 12:18:32.616][INF] Resource: D:\file\project\naruto_moblie_MFAA\resource\base
+[2025-05-26 12:18:32.631][INF] 正在连接至模拟器......
+[2025-05-26 12:18:32.730][INF] GPU acceleration: Auto
+[2025-05-26 12:18:32.731][INF] AdbPath: D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe
+[2025-05-26 12:18:32.731][INF] AdbSerial: 127.0.0.1:16384
+[2025-05-26 12:18:32.731][INF] ScreenCap: Default
+[2025-05-26 12:18:32.731][INF] Input: MinitouchAndAdbKey
+[2025-05-26 12:18:32.731][INF] Config: {"extras":{"mumu":{"enable":true,"index":0,"path":"D:/soft/mumu模拟器/MuMu Player 12"}}
+[2025-05-26 12:18:41.106][INF] 开始执行任务: 更新资源
+[2025-05-26 12:18:41.114][INF] 任务完成: 更新资源
+[2025-05-26 12:18:41.114][INF] 任务已全部完成！
+(用时 0h 0m 8s)
+[2025-05-26 12:18:41.119][INF] 开始执行任务: 更新软件
+[2025-05-26 12:18:41.767][ERR] 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+[2025-05-26 12:18:41.798][ERR] System.Exception: 处理GitHub响应时发生错误: One or more errors occurred. (以一种访问权限不允许的方式做了一个访问套接字的尝试。 (api.github.com:443))
+   at MFAAvalonia.Helper.VersionChecker.GetLatestVersionAndDownloadUrlFromGithub(String& url, String& latestVersion, String owner, String repo)
+   at MFAAvalonia.Helper.VersionChecker.CheckForMFAUpdates(Boolean isGithub)
+[2025-05-26 12:18:41.798][INF] 任务完成: 更新软件
+[2025-05-26 12:18:44.279][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-26 12:18:44.280][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Activity.json
+[2025-05-26 12:18:44.281][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Easy_helper.json
+[2025-05-26 12:18:44.309][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Get_chopper.json
+[2025-05-26 12:18:44.310][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Give_energy.json
+[2025-05-26 12:18:44.310][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Group.json
+[2025-05-26 12:18:44.312][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Headhunt.json
+[2025-05-26 12:18:44.312][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Hundred_ninjia.json
+[2025-05-26 12:18:44.313][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Leaderboard.json
+[2025-05-26 12:18:44.313][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Liveness_award.json
+[2025-05-26 12:18:44.314][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Mail.json
+[2025-05-26 12:18:44.314][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Mission_office.json
+[2025-05-26 12:18:44.316][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Naruto_club.json
+[2025-05-26 12:18:44.322][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Ninjia_book.json
+[2025-05-26 12:18:44.323][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Point_race.json
+[2025-05-26 12:18:44.323][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Practice_place.json
+[2025-05-26 12:18:44.324][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Rich_room.json
+[2025-05-26 12:18:44.328][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Secret_realm.json
+[2025-05-26 12:18:44.329][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Share.json
+[2025-05-26 12:18:44.332][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Shop.json
+[2025-05-26 12:18:44.333][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Startgame.json
+[2025-05-26 12:18:44.333][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Startup.json
+[2025-05-26 12:18:44.334][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Team_dash.json
+[2025-05-26 12:18:44.335][INF] Loading Pipeline: D:\file\project\naruto_moblie_MFAA\resource\base\pipeline\Use_energy.json
+[2025-05-26 12:18:44.336][INF] 触控模式:MinitouchAndAdbKey,捕获模式:Default
+[2025-05-26 12:18:44.797][INF] 正在连接至模拟器......
+[2025-05-26 12:18:44.870][INF] 截图耗时: 17ms(Default)
+[2025-05-26 12:18:44.873][INF] 开始任务: 进入火影
+[2025-05-26 12:19:24.695][INF] 开始任务: 开始游戏
