@@ -1,4 +1,10 @@
 {
+    "name": "火影MAA",
+    "version": "v0.1.1",
+    "mirrorchyan_rid": "项目ID(从Mirror酱下载的必要字段)",
+    "mirrorchyan_multiplatform": false,
+    "url": "https://github.com/duorua/narutomobile",
+    "custom_title": "火影MAA[mirror酱显现]",
     "controller": [
         {
             "name": "安卓端",
@@ -91,11 +97,6 @@
             "check": true
         },
         {
-            "name": "丰饶",
-            "entry": "rich_room",
-            "check": true
-        },
-        {
             "name": "小队突袭",
             "entry": "team_dash",
             "option": [
@@ -126,6 +127,11 @@
         {
             "name": "刷体力(beta)",
             "entry": "use_energy",
+            "check": true
+        },
+	{
+            "name": "丰饶",
+            "entry": "rich_room",
             "check": true
         },
         {

@@ -10,8 +10,11 @@
     },
     "swipe_for_left_entries": {
         "recognition": "TemplateMatch",
-        "template": "Leaderboard/practice_place.png",
-        "threshold": 0.9,
+        "template": [
+            "Leaderboard/practice_place.png",
+            "Leaderboard/practice_place_summer.png"
+        ],
+        "threshold": 0.8,
         "green_mask": true,
         "action": "Swipe",
         "begin": [
@@ -32,14 +35,13 @@
         "template": [
             "Leaderboard/board.png"
         ],
-        "threshold": 0.9,
+        "threshold": 0.8,
         "green_mask": true,
         "action": "Click",
         "next": [
             "click_thumb"
         ],
-        "pre_wait_freezes": 500,
-        "post_wait_freezes": 100
+        "post_wait_freezes": 300
     },
     "click_thumb": {
         "recognition": "TemplateMatch",

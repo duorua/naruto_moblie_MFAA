@@ -37,7 +37,7 @@
     {
       "name": "进入火影",
       "entry": "start_up",
-      "check": true,
+      "check": false,
       "option": [
         {
           "name": "加载时间选择",
@@ -52,37 +52,37 @@
     {
       "name": "开始游戏",
       "entry": "start_game",
-      "check": true
+      "check": false
     },
     {
       "name": "轻松助手",
       "entry": "easy_helper",
-      "check": true
+      "check": false
     },
     {
       "name": "招财",
       "entry": "get_chopper",
-      "check": true
+      "check": false
     },
     {
       "name": "排行榜",
       "entry": "leaderboard",
-      "check": true
+      "check": false
     },
     {
       "name": "送体力",
       "entry": "give_energy",
-      "check": true
+      "check": false
     },
     {
       "name": "每日分享",
       "entry": "share",
-      "check": true
+      "check": false
     },
     {
       "name": "火影情报社",
       "entry": "naruto_club",
-      "check": true
+      "check": false
     },
     {
       "name": "邮箱",
