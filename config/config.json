@@ -37,7 +37,7 @@
     {
       "name": "进入火影",
       "entry": "start_up",
-      "check": false,
+      "check": true,
       "option": [
         {
           "name": "加载时间选择",
@@ -52,37 +52,37 @@
     {
       "name": "开始游戏",
       "entry": "start_game",
-      "check": false
+      "check": true
     },
     {
       "name": "轻松助手",
       "entry": "easy_helper",
-      "check": false
+      "check": true
     },
     {
       "name": "招财",
       "entry": "get_chopper",
-      "check": false
+      "check": true
     },
     {
       "name": "排行榜",
       "entry": "leaderboard",
-      "check": false
+      "check": true
     },
     {
       "name": "送体力",
       "entry": "give_energy",
-      "check": false
+      "check": true
     },
     {
       "name": "每日分享",
       "entry": "share",
-      "check": false
+      "check": true
     },
     {
       "name": "火影情报社",
       "entry": "naruto_club",
-      "check": false
+      "check": true
     },
     {
       "name": "邮箱",
@@ -176,5 +176,31 @@
   },
   "EnableEdit": false,
   "UI.MainWindow.Width": "1453",
-  "UI.MainWindow.Height": "865"
+  "UI.MainWindow.Height": "865",
+  "DownloadCDK": "",
+  "EnableAutoUpdateResource": true,
+  "EnableAutoUpdateMFA": true,
+  "CurrentTasks": [
+    "进入火影:start_up",
+    "开始游戏:start_game",
+    "轻松助手:easy_helper",
+    "招财:get_chopper",
+    "排行榜:leaderboard",
+    "送体力:give_energy",
+    "每日分享:share",
+    "火影情报社:naruto_club",
+    "组织:group",
+    "邮箱:mail",
+    "积分赛:point_race",
+    "试炼:practice_place",
+    "小队突袭:team_dash",
+    "忍法帖:ninjia_book",
+    "免费招募:headhunt",
+    "月签到和活动:activity",
+    "任务集会所(beta):mission_office",
+    "刷体力(beta):use_energy",
+    "丰饶:rich_room",
+    "活跃宝箱(beta):liveness_award",
+    "百忍大战:hundred_ninjia"
+  ]
 }
