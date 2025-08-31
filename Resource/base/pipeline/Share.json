@@ -153,7 +153,7 @@
             39
         ],
         "next": [
-            "close_qq_friend_share"
+            "close_qq_app"
         ],
         "interrupt": [
             "close_weekly_ninjia_title"
@@ -162,22 +162,12 @@
         "pre_wait_freezes": 200,
         "post_wait_freezes": 400
     },
-    "close_qq_friend_share": {
-        "recognition": "OCR",
-        "expected": [
-            "关闭",
-            "关",
-            "闭"
-        ],
-        "roi": [
-            11,
-            35,
-            59,
-            42
-        ],
-        "action": "Click",
+    "close_qq_app": {
+        "action": "StopApp",
+        "package": "com.tencent.mobileqq",
         "next": [
-            "check_main_screen_and_stop"
+            "click_x_single",
+            "back_main_screen_and_stop"
         ]
     },
     "back_main_screen": {
@@ -187,11 +177,9 @@
         "interrupt": [
             "click_x",
             "weekly_sign",
-            "close_home_page_mini_program",
             "close_chat",
             "close_friend_rank",
-            "close_new_ninjia_page",
-            "close_qq_friend_share"
+            "close_new_ninjia_page"
         ]
     },
     "close_weekly_ninjia_title": {
@@ -216,11 +204,10 @@
             "confirm_quit_team",
             "click_x",
             "weekly_sign",
-            "close_home_page_mini_program",
             "close_chat",
             "close_friend_rank",
             "close_new_ninjia_page",
-            "close_qq_friend_share"
+            "close_qq_app"
         ]
     },
     "confirm_quit_team": {
@@ -259,7 +246,10 @@
     },
     "click_x_single": {
         "recognition": "TemplateMatch",
-        "template": "Share/green_masked_x.png",
+        "template": [
+            "Share/green_masked_x.png",
+            "Share/x.png"
+        ],
         "action": "Swipe",
         "duration": 50,
         "green_mask": true,
@@ -284,7 +274,10 @@
     },
     "click_x": {
         "recognition": "TemplateMatch",
-        "template": "Share/green_masked_x.png",
+        "template": [
+            "Share/green_masked_x.png",
+            "Share/x.png"
+        ],
         "action": "Click",
         "green_mask": true,
         "threshold": 0.5,
@@ -295,18 +288,6 @@
             "close_headhunt_end_announcement"
         ],
         "post_delay": 500
-    },
-    "close_home_page_mini_program": {
-        "recognition": "TemplateMatch",
-        "template": "Share/mini_program_x.png",
-        "roi": [
-            1143,
-            0,
-            74,
-            58
-        ],
-        "action": "Click",
-        "post_delay": 200
     },
     "award_center_enter": {
         "recognition": "TemplateMatch",
