@@ -514,10 +514,10 @@
         "recognition": "TemplateMatch",
         "template": "Group/dawn_organization_award_done.png",
         "roi": [
-            677,
-            606,
-            61,
-            58
+            496,
+            589,
+            59,
+            54
         ],
         "threshold": 0.97,
         "next": [
@@ -528,10 +528,10 @@
         "recognition": "TemplateMatch",
         "template": "Group/dawn_organization_award_undone.png",
         "roi": [
-            676,
-            606,
-            64,
-            56
+            496,
+            594,
+            61,
+            54
         ],
         "threshold": 0.97,
         "action": "Swipe",
