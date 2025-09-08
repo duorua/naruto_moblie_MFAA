@@ -74,23 +74,42 @@
         "next": [
             "close_ninjia_book_share"
         ],
-        "post_wait_freezes": 1000
-    },
-    "close_ninjia_book_share": {
-        "recognition": "OCR",
-        "expected": [
-            "关",
-            "闭"
+        "interrupt": [
+            "ninjia_book_share_to_qq"
         ],
-        "roi": [
-            10,
-            42,
-            58,
-            37
+        "post_wait_freezes": 500
+    },
+    "click_ninjia_book_share_x_single": {
+        "recognition": "TemplateMatch",
+        "template": [
+            "Share/green_masked_x.png",
+            "Share/x.png"
+        ],
+        "action": "Swipe",
+        "duration": 50,
+        "green_mask": true,
+        "threshold": 0.5,
+        "post_delay": 500
+    },
+    "click_ninjia_book_share_top_bar": {
+        "recognition": "DirectHit",
+        "target": [
+            1067,
+            0,
+            213,
+            143
         ],
         "action": "Click",
+        "post_wait_freezes": 500
+    },
+    "close_ninjia_book_share": {
+        "action": "StopApp",
+        "package": "com.tencent.mobileqq",
         "next": [
             "close_ninjia_book_leaderboard"
+        ],
+        "interrupt": [
+            "click_ninjia_book_share_top_bar"
         ],
         "post_wait_freezes": 2000
     },
@@ -98,10 +117,10 @@
         "recognition": "TemplateMatch",
         "template": "Ninjia_book/mission_done_v2.png",
         "roi": [
-            113,
-            256,
-            58,
-            48
+            133,
+            234,
+            36,
+            29
         ],
         "threshold": 0.94,
         "next": [
@@ -114,10 +133,10 @@
         "recognition": "TemplateMatch",
         "template": "Ninjia_book/mission_undone_v2.png",
         "roi": [
-            113,
-            252,
-            55,
-            48
+            136,
+            236,
+            29,
+            31
         ],
         "next": [
             "ninjia_book_mission_award"
@@ -181,15 +200,18 @@
         "recognition": "TemplateMatch",
         "template": "Ninjia_book/liveness_done_v2.png",
         "roi": [
-            115,
-            357,
-            55,
-            48
+            135,
+            330,
+            37,
+            26
         ],
         "threshold": 0.9,
         "next": [
             "ninjia_book_award_undone",
             "ninjia_book_award_done"
+        ],
+        "interrupt": [
+            "back_main_screen_and_stop"
         ],
         "post_wait_freezes": 500
     },
@@ -197,10 +219,10 @@
         "recognition": "TemplateMatch",
         "template": "Ninjia_book/liveness_undone_v2.png",
         "roi": [
-            112,
-            350,
-            56,
-            50
+            135,
+            335,
+            29,
+            29
         ],
         "threshold": 0.9,
         "next": [
@@ -294,11 +316,11 @@
         "action": "Click",
         "next": [
             "like_ninjia_book_leaderboard",
-            "likeed_ninjia_book_leaderboard"
+            "liked_ninjia_book_leaderboard"
         ],
         "post_wait_freezes": 200
     },
-    "likeed_ninjia_book_leaderboard": {
+    "liked_ninjia_book_leaderboard": {
         "recognition": "TemplateMatch",
         "template": "Ninjia_book/thumbed.png",
         "roi": [
@@ -380,10 +402,10 @@
         "recognition": "TemplateMatch",
         "template": "Ninjia_book/share_v2.png",
         "roi": [
-            990,
-            561,
-            86,
-            37
+            978,
+            572,
+            118,
+            54
         ],
         "action": "Click",
         "next": [
@@ -392,21 +414,24 @@
         "interrupt": [
             "ninjia_book_share_v2"
         ],
-        "post_wait_freezes": 1000
+        "post_wait_freezes": 400
     },
     "close_ninjia_book_leaderboard": {
         "recognition": "TemplateMatch",
-        "template": "Ninjia_book/x.png",
+        "template": "Ninjia_book/close_leaderboard.png",
         "roi": [
-            1196,
-            12,
-            61,
-            45
+            1007,
+            133,
+            36,
+            44
         ],
         "action": "Click",
         "next": [
             "ninjia_book_mission_undone",
             "ninjia_book_mission_done"
+        ],
+        "interrupt": [
+            "close_ninjia_book_leaderboard"
         ],
         "post_wait_freezes": 200
     },

@@ -245,6 +245,12 @@
     },
     "click_x_single": {
         "recognition": "TemplateMatch",
+        "roi": [
+            1067,
+            0,
+            213,
+            143
+        ],
         "template": [
             "Share/green_masked_x.png",
             "Share/x.png"
