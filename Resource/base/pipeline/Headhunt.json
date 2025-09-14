@@ -76,7 +76,8 @@
         "threshold": 0.97,
         "action": "Click",
         "next": [
-            "back_main_screen_and_stop"
+            "top_secret_treasure_box_undone",
+            "top_secret_treasure_box_done"
         ]
     },
     "headhunt_recruit_undone": {
@@ -118,6 +119,77 @@
             75
         ],
         "action": "Click",
+        "next": [
+            "top_secret_treasure_box_undone",
+            "top_secret_treasure_box_done"
+        ],
+        "post_delay": 300
+    },
+    "top_secret_treasure_box_undone": {
+        "recognition": "TemplateMatch",
+        "template": "Headhunt/top_secret_treasure_box_undone.png",
+        "roi": [
+            143,
+            385,
+            22,
+            19
+        ],
+        "action": "Swipe",
+        "duration": 100,
+        "post_delay": 700,
+        "next": [
+            "top_secret_treasure_box_log"
+        ],
+        "interrupt": [
+            "back_main_screen_and_stop"
+        ]
+    },
+    "top_secret_treasure_box_done": {
+        "recognition": "TemplateMatch",
+        "template": "Headhunt/top_secret_treasure_box_undone.png",
+        "roi": [
+            143,
+            385,
+            22,
+            19
+        ],
+        "inverse": true,
+        "post_delay": 300,
+        "next": "back_main_screen_and_stop"
+    },
+    "top_secret_treasure_box_log": {
+        "recognition": "TemplateMatch",
+        "template": "Headhunt/top_secret_treasure_box_log.png",
+        "roi": [
+            1210,
+            661,
+            39,
+            34
+        ],
+        "action": "Swipe",
+        "duration": 100,
+        "post_delay": 700,
+        "next": [
+            "top_secret_treasure_box_chopper"
+        ]
+    },
+    "top_secret_treasure_box_chopper": {
+        "recognition": "OCR",
+        "expected": [
+            "一",
+            "键",
+            "领",
+            "取"
+        ],
+        "roi": [
+            573,
+            614,
+            126,
+            47
+        ],
+        "action": "Swipe",
+        "duration": 100,
+        "post_delay": 700,
         "next": [
             "back_main_screen_and_stop"
         ]

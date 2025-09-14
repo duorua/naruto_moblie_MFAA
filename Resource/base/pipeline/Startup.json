@@ -16,9 +16,9 @@
             "close_before_game_notice",
             "unagreement",
             "agreement",
-            "click_icon"
-        ],
-        "post_delay": 30000
+            "click_icon",
+            "wait_5_second"
+        ]
     },
     "close_teenager_page": {
         "recognition": "TemplateMatch",
@@ -90,13 +90,14 @@
         "next": [
             "check_start_game"
         ],
+        "threshold": 0.85,
         "interrupt": [
             "agree_log_in",
             "unagreement",
             "agreement",
-            "click_icon"
-        ],
-        "post_delay": 30000
+            "click_icon",
+            "wait_5_second"
+        ]
     },
     "check_start_game": {
         "recognition": "TemplateMatch",
@@ -118,6 +119,7 @@
             72,
             69
         ],
+        "green_mask": true,
         "action": "Click",
         "next": "account_type"
     },

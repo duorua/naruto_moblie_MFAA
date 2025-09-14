@@ -529,6 +529,7 @@
     "check_no_ninjia_book_award": {
         "recognition": "TemplateMatch",
         "template": [
+            "Ninjia_book/chopper_60_waiting.png",
             "Ninjia_book/fame_waiting.png",
             "Ninjia_book/gold_waiting.png",
             "Ninjia_book/star_waiting.png",
@@ -552,6 +553,7 @@
     "get_ninjia_book_award": {
         "recognition": "TemplateMatch",
         "template": [
+            "Ninjia_book/chopper_60_waiting.png",
             "Ninjia_book/fame_waiting.png",
             "Ninjia_book/gold_waiting.png",
             "Ninjia_book/star_waiting.png",

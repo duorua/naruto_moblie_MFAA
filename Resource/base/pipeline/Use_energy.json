@@ -111,6 +111,7 @@
         "next": [
             "use_energy_not_enough_sign"
         ],
+        "interrupt": "sleep_500ms",
         "post_delay": 5000
     },
     "use_energy_not_enough_sign": {

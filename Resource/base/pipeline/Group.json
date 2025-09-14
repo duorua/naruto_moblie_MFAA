@@ -87,7 +87,8 @@
             "Group/group.png"
         ],
         "threshold": 0.8,
-        "action": "Click",
+        "action": "Swipe",
+        "duration": 200,
         "next": [
             "group_gameplay_undone",
             "group_gameplay_done"

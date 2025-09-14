@@ -70,7 +70,7 @@
             "get_chopper_ac_entry_undone"
         ],
         "action": "Click",
-        "post_wait_freezes": 700
+        "post_wait_freezes": 1000
     },
     "get_chopper_ac_done": {
         "recognition": "TemplateMatch",
@@ -106,10 +106,10 @@
     "start_chooper": {
         "recognition": "OCR",
         "expected": [
-            "免费一次",
-            "免费一",
-            "免费",
-            "免"
+            "免",
+            "费",
+            "一",
+            "次"
         ],
         "roi": [
             648,
