@@ -1,22 +1,13 @@
 {
-    "name": "火影MAA",
-    "version": "v0.1.2",
-    "mirrorchyan_rid": "项目ID(从Mirror酱下载的必要字段)",
+    "name": "MaaAutoNaruto",
+    "version": "v0.1.10",
+    "mirrorchyan_rid": "MaaAutoNaruto",
     "mirrorchyan_multiplatform": false,
     "url": "https://github.com/duorua/narutomobile",
-    "custom_title": "火影MAA[夏日泳装]",
     "controller": [
         {
             "name": "安卓端",
             "type": "Adb"
-        },
-        {
-            "name": "桌面端",
-            "type": "Win32",
-            "win32": {
-                "class_regex": ".*",
-                "window_regex": "Visual Studio"
-            }
         }
     ],
     "resource": [
