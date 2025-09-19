@@ -264,7 +264,8 @@
             107,
             107
         ],
-        "action": "Click",
+        "action": "Swipe",
+        "duration": 50,
         "next": [
             "check_in_team_dash_sweep"
         ],

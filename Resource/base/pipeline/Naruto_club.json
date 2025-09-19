@@ -30,34 +30,76 @@
             "check_surf_post"
         ],
         "interrupt": [
-            "surf_post"
+            "surf_post",
+            "swipe_for_comments"
         ],
         "post_wait_freezes": 300,
         "post_delay": 2000
+    },
+    "swipe_for_comments": {
+        "recognition": "DirectHit",
+        "action": "Swipe",
+        "begin": [
+            500,
+            600,
+            50,
+            50
+        ],
+        "end": [
+            500,
+            300,
+            50,
+            50
+        ],
+        "next": [
+            "surf_post"
+        ],
+        "interrupt": [
+            "swipe_for_comments"
+        ],
+        "post_delay": 1000
     },
     "check_surf_post": {
         "recognition": "TemplateMatch",
         "template": "Naruto_club/entry_post.png",
         "roi": [
-            730,
-            0,
-            118,
-            58
+            743,
+            58,
+            32,
+            37
         ],
+        "action": "Click",
+        "duration": 50,
         "next": [
             "club_like_mission"
         ]
     },
     "surf_post": {
-        "recognition": "TemplateMatch",
-        "template": "Naruto_club/surf_post.png",
+        "recognition": "OCR",
+        "expected": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
         "roi": [
-            381,
-            50,
-            129,
-            94
+            583,
+            58,
+            56,
+            662
         ],
         "action": "Click",
+        "next": "check_surf_post",
+        "interrupt": [
+            "surf_post",
+            "swipe_for_comments"
+        ],
         "post_wait_freezes": 500
     },
     "club_like_mission": {
@@ -83,16 +125,14 @@
     "first_like": {
         "recognition": "TemplateMatch",
         "template": "Naruto_club/club_like.png",
-        "threshold": 0.9,
+        "threshold": 0.8,
         "action": "Click",
         "next": "second_like",
         "interrupt": [
             "cancel_club_follow",
             "swipe_for_club_like"
         ],
-        "pre_wait_freezes": 1000,
-        "post_wait_freezes": 1000,
-        "post_delay": 1000
+        "post_wait_freezes": 1000
     },
     "swipe_for_club_like": {
         "action": "Swipe",
@@ -104,19 +144,18 @@
         ],
         "end": [
             900,
-            500,
+            400,
             100,
             50
-        ]
+        ],
+        "post_wait_freezes": 500
     },
     "second_like": {
         "recognition": "TemplateMatch",
         "template": "Naruto_club/club_like.png",
-        "threshold": 0.9,
+        "threshold": 0.8,
         "action": "Click",
-        "pre_wait_freezes": 1000,
         "post_wait_freezes": 1000,
-        "post_delay": 1000,
         "next": "third_like",
         "interrupt": [
             "cancel_club_follow",
@@ -126,11 +165,9 @@
     "third_like": {
         "recognition": "TemplateMatch",
         "template": "Naruto_club/club_like.png",
-        "threshold": 0.9,
+        "threshold": 0.8,
         "action": "Click",
-        "pre_wait_freezes": 1000,
         "post_wait_freezes": 1000,
-        "post_delay": 1000,
         "next": "fourth_like",
         "interrupt": [
             "cancel_club_follow",
@@ -140,11 +177,9 @@
     "fourth_like": {
         "recognition": "TemplateMatch",
         "template": "Naruto_club/club_like.png",
-        "threshold": 0.9,
+        "threshold": 0.8,
         "action": "Click",
-        "pre_wait_freezes": 1000,
         "post_wait_freezes": 1000,
-        "post_delay": 1000,
         "next": "close_surf_post"
     },
     "close_surf_post": {
