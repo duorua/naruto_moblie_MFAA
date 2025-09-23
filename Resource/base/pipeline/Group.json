@@ -88,13 +88,14 @@
         ],
         "threshold": 0.8,
         "action": "Swipe",
-        "duration": 200,
+        "duration": 100,
         "next": [
             "group_gameplay_undone",
             "group_gameplay_done"
         ],
         "interrupt": [
-            "back_main_screen_and_stop"
+            "group_entry",
+            "back_main_screen"
         ],
         "green_mask": true,
         "post_delay": 1500
@@ -193,7 +194,8 @@
             42
         ],
         "next": [
-            "confirm_chopper_group_pray"
+            "confirm_chopper_group_pray",
+            "group_pray_remain_1"
         ],
         "interrupt": [
             "close_chopper_group_pray",
@@ -210,15 +212,32 @@
             200,
             80
         ],
-        "action": "Click",
+        "action": "Swipe",
+        "duration": 50,
         "next": [
-            "confirm_chopper_group_pray"
+            "confirm_chopper_group_pray",
+            "group_pray_remain_1"
         ],
         "interrupt": [
             "close_chopper_group_pray",
             "chopper_group_pray"
         ],
         "post_delay": 3000
+    },
+    "group_pray_remain_1": {
+        "recognition": "OCR",
+        "expected": "1",
+        "roi": [
+            980,
+            120,
+            24,
+            37
+        ],
+        "next": [
+            "above_kage_group_pray",
+            "chopper_group_pray"
+        ],
+        "post_wait_freezes": 600
     },
     "close_chopper_group_pray": {
         "recognition": "TemplateMatch",

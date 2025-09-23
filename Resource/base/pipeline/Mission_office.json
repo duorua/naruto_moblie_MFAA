@@ -10,13 +10,17 @@
     },
     "mission_office_in_center_enter": {
         "recognition": "TemplateMatch",
-        "template": "Share/check_in_daily_award.png",
+        "template": [
+            "Share/check_not_in_daily_award.png",
+            "Share/check_in_daily_award.png"
+        ],
         "roi": [
             37,
             172,
             130,
             47
         ],
+        "action": "Click",
         "next": [
             "mission_office_ac_undone",
             "mission_office_ac_done"
@@ -24,7 +28,7 @@
         "interrupt": [
             "Swipe_for_award_center_find"
         ],
-        "post_delay": 100
+        "post_delay": 400
     },
     "mission_office_ac_entry": {
         "recognition": "TemplateMatch",
@@ -37,13 +41,9 @@
         ],
         "action": "Click",
         "next": [
-            "mission_office_ac_undone",
-            "mission_office_ac_done"
+            "mission_office_in_center_enter"
         ],
-        "interrupt": [
-            "Swipe_for_award_center_find"
-        ],
-        "post_delay": 100
+        "post_delay": 1000
     },
     "mission_office_ac_undone": {
         "recognition": "TemplateMatch",

@@ -24,13 +24,34 @@
         "action": "Click",
         "green_mask": true,
         "next": [
+            "liveness_award_in_center_enter"
+        ],
+        "interrupt": [
+            "get_liveness_award"
+        ],
+        "post_wait_freezes": 1000
+    },
+    "liveness_award_in_center_enter": {
+        "recognition": "TemplateMatch",
+        "template": [
+            "Share/check_not_in_daily_award.png",
+            "Share/check_in_daily_award.png"
+        ],
+        "roi": [
+            37,
+            172,
+            130,
+            47
+        ],
+        "action": "Click",
+        "next": [
             "liveness_award_done",
             "check_no_liveness_award"
         ],
         "interrupt": [
             "get_liveness_award"
         ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 400
     },
     "liveness_award_done": {
         "recognition": "TemplateMatch",

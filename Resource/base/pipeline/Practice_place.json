@@ -10,13 +10,17 @@
     },
     "survival_challenge_in_center_enter": {
         "recognition": "TemplateMatch",
-        "template": "Share/check_in_daily_award.png",
+        "template": [
+            "Share/check_not_in_daily_award.png",
+            "Share/check_in_daily_award.png"
+        ],
         "roi": [
             37,
             172,
             130,
             47
         ],
+        "action": "Click",
         "next": [
             "survival_challenge_ac_entry_undone",
             "survival_challenge_ac_done"
@@ -24,7 +28,7 @@
         "interrupt": [
             "Swipe_for_award_center_find"
         ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 400
     },
     "survival_challenge_ac_entry": {
         "recognition": "TemplateMatch",
@@ -37,13 +41,9 @@
         ],
         "action": "Click",
         "next": [
-            "survival_challenge_ac_entry_undone",
-            "survival_challenge_ac_done"
+            "survival_challenge_in_center_enter"
         ],
-        "interrupt": [
-            "Swipe_for_award_center_find"
-        ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 1000
     },
     "survival_challenge_ac_entry_undone": {
         "recognition": "TemplateMatch",
@@ -83,13 +83,17 @@
     },
     "practice_place_in_center_enter": {
         "recognition": "TemplateMatch",
-        "template": "Share/check_in_daily_award.png",
+        "template": [
+            "Share/check_not_in_daily_award.png",
+            "Share/check_in_daily_award.png"
+        ],
         "roi": [
             37,
             172,
             130,
             47
         ],
+        "action": "Click",
         "next": [
             "practice_place_ac_entry_undone",
             "practice_place_ac_done"
@@ -97,7 +101,7 @@
         "interrupt": [
             "Swipe_for_award_center_find"
         ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 400
     },
     "practice_place_ac_entry": {
         "recognition": "TemplateMatch",
@@ -110,13 +114,9 @@
         ],
         "action": "Click",
         "next": [
-            "practice_place_ac_entry_undone",
-            "practice_place_ac_done"
+            "practice_place_in_center_enter"
         ],
-        "interrupt": [
-            "Swipe_for_award_center_find"
-        ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 1000
     },
     "practice_place_ac_done": {
         "recognition": "TemplateMatch",

@@ -10,13 +10,17 @@
     },
     "team_dash_in_center_enter": {
         "recognition": "TemplateMatch",
-        "template": "Share/check_in_daily_award.png",
+        "template": [
+            "Share/check_not_in_daily_award.png",
+            "Share/check_in_daily_award.png"
+        ],
         "roi": [
             37,
             172,
             130,
             47
         ],
+        "action": "Click",
         "next": [
             "team_dash_ac_entry_undone",
             "team_dash_ac_done"
@@ -24,7 +28,7 @@
         "interrupt": [
             "Swipe_for_award_center_find"
         ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 400
     },
     "team_dash_ac_entry": {
         "recognition": "TemplateMatch",
@@ -37,13 +41,9 @@
         ],
         "action": "Click",
         "next": [
-            "team_dash_ac_entry_undone",
-            "team_dash_ac_done"
+            "team_dash_in_center_enter"
         ],
-        "interrupt": [
-            "Swipe_for_award_center_find"
-        ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 1000
     },
     "team_dash_ac_entry_undone": {
         "recognition": "TemplateMatch",
@@ -274,7 +274,7 @@
             "team_dash_auto_fight",
             "sleep_500ms"
         ],
-        "post_delay": 800
+        "post_delay": 1000
     },
     "team_dash_auto_match": {
         "recognition": "TemplateMatch",
@@ -368,6 +368,7 @@
             38
         ],
         "next": [
+            "team_dash_auto_fight",
             "check_not_in_team_dash_sweep"
         ],
         "interrupt": [

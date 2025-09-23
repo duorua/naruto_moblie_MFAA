@@ -10,13 +10,17 @@
     },
     "get_chopper_in_center_enter": {
         "recognition": "TemplateMatch",
-        "template": "Share/check_in_daily_award.png",
+        "template": [
+            "Share/check_not_in_daily_award.png",
+            "Share/check_in_daily_award.png"
+        ],
         "roi": [
             37,
             172,
             130,
             47
         ],
+        "action": "Click",
         "next": [
             "get_chopper_ac_entry_undone",
             "get_chopper_ac_done"
@@ -37,13 +41,9 @@
         ],
         "action": "Click",
         "next": [
-            "get_chopper_ac_entry_undone",
-            "get_chopper_ac_done"
+            "get_chopper_in_center_enter"
         ],
-        "interrupt": [
-            "Swipe_for_award_center_find"
-        ],
-        "post_delay": 700
+        "post_delay": 1000
     },
     "get_chopper_ac_entry_undone": {
         "recognition": "TemplateMatch",
