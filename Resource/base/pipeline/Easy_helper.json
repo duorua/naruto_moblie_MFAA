@@ -183,10 +183,10 @@
         "recognition": "TemplateMatch",
         "template": "Easy_helper/log_on_award.png",
         "roi": [
-            405,
-            537,
-            104,
-            58
+            329,
+            523,
+            951,
+            89
         ],
         "action": "Click",
         "next": [

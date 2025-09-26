@@ -203,7 +203,8 @@
             "mission_office_3_advance_mission"
         ],
         "interrupt": [
-            "mission_office_complete"
+            "mission_office_complete",
+            "take_mission_done"
         ]
     },
     "mission_office_complete": {
@@ -335,7 +336,7 @@
             -578,
             -69
         ],
-        "threshold": 0.9,
+        "threshold": 0.85,
         "green_mask": true,
         "next": [
             "mission_office_recommended_team"
@@ -653,7 +654,7 @@
             -578,
             -69
         ],
-        "threshold": 0.9,
+        "threshold": 0.85,
         "green_mask": true,
         "next": [
             "select_ninjia_for_solo_mission_by_frame"
@@ -1097,10 +1098,10 @@
         "recognition": "TemplateMatch",
         "template": "Mission_office/main_page_done.png",
         "roi": [
-            1098,
-            211,
-            141,
-            339
+            1069,
+            91,
+            210,
+            508
         ],
         "next": [
             "back_main_screen_and_stop"

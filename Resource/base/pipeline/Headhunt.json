@@ -68,12 +68,12 @@
         "recognition": "TemplateMatch",
         "template": "Headhunt/recruit_done.png",
         "roi": [
-            36,
-            306,
-            134,
-            53
+            0,
+            119,
+            174,
+            523
         ],
-        "threshold": 0.97,
+        "threshold": 0.95,
         "action": "Click",
         "next": [
             "top_secret_treasure_box_undone",
@@ -84,10 +84,10 @@
         "recognition": "TemplateMatch",
         "template": "Headhunt/recruit_undone.png",
         "roi": [
-            34,
-            290,
-            137,
-            69
+            0,
+            119,
+            174,
+            523
         ],
         "threshold": 0.95,
         "action": "Click",
@@ -129,11 +129,12 @@
         "recognition": "TemplateMatch",
         "template": "Headhunt/top_secret_treasure_box_undone.png",
         "roi": [
-            143,
-            385,
-            22,
-            19
+            0,
+            119,
+            174,
+            523
         ],
+        "threshold": 0.9,
         "action": "Swipe",
         "duration": 100,
         "post_delay": 700,
@@ -148,11 +149,12 @@
         "recognition": "TemplateMatch",
         "template": "Headhunt/top_secret_treasure_box_undone.png",
         "roi": [
-            143,
-            385,
-            22,
-            19
+            0,
+            119,
+            174,
+            523
         ],
+        "threshold": 0.9,
         "inverse": true,
         "post_delay": 300,
         "next": "back_main_screen_and_stop"
