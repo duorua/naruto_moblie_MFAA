@@ -404,10 +404,10 @@
         "recognition": "TemplateMatch",
         "template": "Ninjia_book/share_v2.png",
         "roi": [
-            978,
-            572,
-            118,
-            54
+            955,
+            522,
+            175,
+            130
         ],
         "action": "Click",
         "next": [
@@ -529,6 +529,7 @@
     "check_no_ninjia_book_award": {
         "recognition": "TemplateMatch",
         "template": [
+            "Ninjia_book/seal_roll_waiting.png",
             "Ninjia_book/chopper_60_waiting.png",
             "Ninjia_book/fame_waiting.png",
             "Ninjia_book/gold_waiting.png",
@@ -553,6 +554,7 @@
     "get_ninjia_book_award": {
         "recognition": "TemplateMatch",
         "template": [
+            "Ninjia_book/seal_roll_waiting.png",
             "Ninjia_book/chopper_60_waiting.png",
             "Ninjia_book/fame_waiting.png",
             "Ninjia_book/gold_waiting.png",
