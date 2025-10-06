@@ -6,7 +6,8 @@
         ],
         "interrupt": [
             "back_main_screen"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]进入分享子任务[/color]"
     },
     "share_in_center_enter": {
         "recognition": "TemplateMatch",
@@ -28,7 +29,8 @@
         "interrupt": [
             "Swipe_for_award_center_find"
         ],
-        "post_wait_freezes": 400
+        "post_wait_freezes": 400,
+        "focus": "[color:DeepSkyBlue]检测是否已在奖励中心[/color]"
     },
     "share_ac_entry": {
         "recognition": "TemplateMatch",
@@ -43,7 +45,8 @@
         "next": [
             "share_in_center_enter"
         ],
-        "post_wait_freezes": 1000
+        "post_wait_freezes": 1000,
+        "focus": "[color:DeepSkyBlue]进入奖励中心[/color]"
     },
     "share_ac_entry_undone": {
         "recognition": "TemplateMatch",
@@ -71,7 +74,8 @@
             "share_to_qq_friend"
         ],
         "action": "Click",
-        "post_wait_freezes": 600
+        "post_wait_freezes": 600,
+        "focus": "[color:DeepSkyBlue]分享未完成[/color]"
     },
     "share_ac_done": {
         "recognition": "TemplateMatch",
@@ -84,7 +88,8 @@
         ],
         "next": [
             "Swipe_for_back_daily_award_top"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]分享已完成[/color]"
     },
     "share_entry": {
         "recognition": "TemplateMatch",
@@ -113,7 +118,8 @@
             "share_entry",
             "share_to_qq_friend"
         ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:darkgray]尝试进入用户主页[/color]"
     },
     "try_share": {
         "recognition": "TemplateMatch",
@@ -132,7 +138,8 @@
             "close_weekly_ninjia_title"
         ],
         "pre_wait_freezes": 200,
-        "post_wait_freezes": 200
+        "post_wait_freezes": 200,
+        "focus": "[color:DeepSkyBlue]点击分享按钮[/color]"
     },
     "share_to_qq_friend": {
         "recognition": "OCR",
@@ -160,7 +167,8 @@
         ],
         "action": "Click",
         "pre_wait_freezes": 200,
-        "post_wait_freezes": 400
+        "post_wait_freezes": 400,
+        "focus": "[color:DeepSkyBlue]发给好友[/color]"
     },
     "close_qq_app": {
         "action": "StopApp",
@@ -168,7 +176,8 @@
         "next": [
             "click_x_single",
             "back_main_screen_and_stop"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]关闭QQ[/color]"
     },
     "back_main_screen": {
         "next": [
@@ -180,7 +189,8 @@
             "close_chat",
             "close_friend_rank",
             "close_new_ninjia_page"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]退回主界面[/color]"
     },
     "close_weekly_ninjia_title": {
         "recognition": "TemplateMatch",
@@ -194,7 +204,8 @@
         "next": [
             "try_share"
         ],
-        "action": "Click"
+        "action": "Click",
+        "focus": "[color:darkgray]关闭周榜更新提示[/color]"
     },
     "back_main_screen_and_stop": {
         "next": [
@@ -207,7 +218,8 @@
             "close_chat",
             "close_friend_rank",
             "close_new_ninjia_page"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]退回主界面并停止子任务[/color]"
     },
     "confirm_quit_team": {
         "recognition": "TemplateMatch",
@@ -219,7 +231,8 @@
             47
         ],
         "action": "Swipe",
-        "duration": 50
+        "duration": 50,
+        "focus": "[color:DeepSkyBlue]小队突袭确认退队[/color]"
     },
     "close_chat": {
         "recognition": "TemplateMatch",
@@ -230,7 +243,8 @@
             53,
             104
         ],
-        "action": "Click"
+        "action": "Click",
+        "focus": "[color:darkgray]关闭聊天[/color]"
     },
     "keep_close_x": {
         "next": [
@@ -260,7 +274,8 @@
         "green_mask": true,
         "next": "back_main_screen_and_stop",
         "threshold": 0.5,
-        "post_delay": 500
+        "post_delay": 500,
+        "focus": "[color:darkgray]关闭当前窗口[/color]"
     },
     "check_no_x": {
         "recognition": "TemplateMatch",
@@ -276,7 +291,8 @@
             "weekly_sign",
             "click_x"
         ],
-        "post_delay": 700
+        "post_delay": 700,
+        "focus": "[color:DeepSkyBlue]检查有没有可关闭窗口[/color]"
     },
     "click_x": {
         "recognition": "TemplateMatch",
@@ -292,7 +308,8 @@
         "interrupt": [
             "close_headhunt_end_announcement"
         ],
-        "post_delay": 500
+        "post_delay": 500,
+        "focus": "[color:darkgray]点击关闭按钮[/color]"
     },
     "award_center_enter": {
         "recognition": "TemplateMatch",
@@ -304,7 +321,8 @@
             39
         ],
         "action": "Click",
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:DeepSkyBlue]进入奖励中心[/color]"
     },
     "Swipe_for_award_center_find": {
         "recognition": "TemplateMatch",
@@ -328,7 +346,8 @@
             56,
             61
         ],
-        "duration": 700
+        "duration": 700,
+        "focus": "[color:DeepSkyBlue]寻找奖励中心功能入口[/color]"
     },
     "Swipe_for_back_daily_award_top": {
         "recognition": "TemplateMatch",
@@ -355,7 +374,8 @@
         "next": [
             "Swipe_for_back_daily_award_top_1"
         ],
-        "post_wait_freezes": 100
+        "post_wait_freezes": 100,
+        "focus": "[color:DeepSkyBlue]回到奖励中心头部[/color]"
     },
     "Swipe_for_back_daily_award_top_1": {
         "recognition": "TemplateMatch",

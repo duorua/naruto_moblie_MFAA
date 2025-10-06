@@ -125,8 +125,8 @@
       "check": true,
       "option": [
         {
-          "name": "等待自动战斗时间选择",
-          "index": 1
+          "name": "勾选本周不再提醒",
+          "index": 0
         }
       ]
     },
@@ -164,19 +164,30 @@
       "name": "百忍大战",
       "entry": "hundred_ninjia",
       "check": false
+    },
+    {
+      "name": "周胜(没做好别用)",
+      "entry": "weekly_win",
+      "check": false,
+      "option": [
+        {
+          "name": "匹配还是排位",
+          "index": 0
+        }
+      ]
     }
   ],
   "AdbDevice": {
     "Name": "MuMuPlayer12",
     "AdbPath": "D:/soft/mumu模拟器/MuMu Player 12/shell/adb.exe",
     "AdbSerial": "127.0.0.1:16384",
-    "ScreencapMethods": 18446744073709551559,
+    "ScreencapMethods": 64,
     "InputMethods": 18446744073709551607,
     "Config": "{\"extras\":{\"mumu\":{\"enable\":true,\"index\":0,\"path\":\"D:/soft/mumu模拟器/MuMu Player 12\"}}}"
   },
   "EnableEdit": false,
-  "UI.MainWindow.Width": "1453",
-  "UI.MainWindow.Height": "865",
+  "UI.MainWindow.Width": "1328",
+  "UI.MainWindow.Height": "735",
   "DownloadCDK": "",
   "EnableAutoUpdateResource": true,
   "EnableAutoUpdateMFA": true,
@@ -201,6 +212,12 @@
     "刷体力(beta):use_energy",
     "丰饶:rich_room",
     "活跃宝箱(beta):liveness_award",
-    "百忍大战:hundred_ninjia"
-  ]
+    "百忍大战:hundred_ninjia",
+    "周胜:weekly_win",
+    "周胜(没做好别用):weekly_win"
+  ],
+  "UI.TaskQueue.Column1Width": "347",
+  "UI.TaskQueue.Column2Width": "451.5*",
+  "UI.TaskQueue.Column3Width": "451.5*",
+  "CurrentController": "Adb"
 }

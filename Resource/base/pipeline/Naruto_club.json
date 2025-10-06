@@ -5,7 +5,8 @@
         ],
         "interrupt": [
             "back_main_screen"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]进入情报社子任务[/color]"
     },
     "naruto_club_entry": {
         "next": [
@@ -34,7 +35,8 @@
             "swipe_for_comments"
         ],
         "post_wait_freezes": 300,
-        "post_delay": 2000
+        "post_delay": 2000,
+        "focus": "[color:DeepSkyBlue]点击情报社[/color]"
     },
     "swipe_for_comments": {
         "recognition": "DirectHit",
@@ -57,7 +59,8 @@
         "interrupt": [
             "swipe_for_comments"
         ],
-        "post_delay": 1000
+        "post_delay": 1000,
+        "focus": "[color:DeepSkyBlue]滑动寻找评论[/color]"
     },
     "check_surf_post": {
         "recognition": "TemplateMatch",
@@ -72,7 +75,8 @@
         "duration": 50,
         "next": [
             "club_like_mission"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]检测是否开始话题冲浪[/color]"
     },
     "surf_post": {
         "recognition": "OCR",
@@ -100,7 +104,8 @@
             "surf_post",
             "swipe_for_comments"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]选择又评论话题[/color]"
     },
     "club_like_mission": {
         "next": [
@@ -120,7 +125,8 @@
             107,
             50
         ],
-        "action": "Click"
+        "action": "Click",
+        "focus": "[color:DeepSkyBlue]取消误关注[/color]"
     },
     "first_like": {
         "recognition": "TemplateMatch",
@@ -132,7 +138,8 @@
             "cancel_club_follow",
             "swipe_for_club_like"
         ],
-        "post_delay": 1500
+        "post_delay": 1500,
+        "focus": "[color:DeepSkyBlue]第一个点赞任务[/color]"
     },
     "swipe_for_club_like": {
         "action": "Swipe",
@@ -148,7 +155,8 @@
             100,
             50
         ],
-        "post_delay": 1000
+        "post_delay": 1000,
+        "focus": "[color:DeepSkyBlue]滑动点赞[/color]"
     },
     "second_like": {
         "recognition": "TemplateMatch",
@@ -160,7 +168,8 @@
         "interrupt": [
             "cancel_club_follow",
             "swipe_for_club_like"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]第二个点赞任务[/color]"
     },
     "third_like": {
         "recognition": "TemplateMatch",
@@ -172,7 +181,8 @@
         "interrupt": [
             "cancel_club_follow",
             "swipe_for_club_like"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]第三个点赞任务[/color]"
     },
     "fourth_like": {
         "recognition": "TemplateMatch",
@@ -180,7 +190,8 @@
         "threshold": 0.8,
         "action": "Click",
         "post_delay": 1500,
-        "next": "close_surf_post"
+        "next": "close_surf_post",
+        "focus": "[color:DeepSkyBlue]第四个点赞任务[/color]"
     },
     "close_surf_post": {
         "recognition": "TemplateMatch",
@@ -195,7 +206,8 @@
         "next": [
             "scroll"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]关闭话题[/color]"
     },
     "scroll": {
         "recognition": "TemplateMatch",
@@ -211,7 +223,8 @@
             "close_scroll"
         ],
         "post_wait_freezes": 500,
-        "post_delay": 1000
+        "post_delay": 1000,
+        "focus": "[color:DeepSkyBlue]进入卷轴[/color]"
     },
     "close_scroll": {
         "recognition": "TemplateMatch",
@@ -226,7 +239,8 @@
         "next": [
             "ninja_station"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]关闭卷轴[/color]"
     },
     "ninja_station": {
         "recognition": "TemplateMatch",
@@ -241,7 +255,8 @@
         "next": [
             "close_ninja_station"
         ],
-        "post_wait_freezes": 8000
+        "post_wait_freezes": 8000,
+        "focus": "[color:DeepSkyBlue]进入忍者站[/color]"
     },
     "close_ninja_station": {
         "recognition": "TemplateMatch",
@@ -256,7 +271,8 @@
         "next": [
             "village_entry"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]关闭忍者站[/color]"
     },
     "village_entry": {
         "recognition": "TemplateMatch",
@@ -271,7 +287,8 @@
         "post_wait_freezes": 400,
         "next": [
             "close_village_entry"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]进入村口[/color]"
     },
     "close_village_entry": {
         "recognition": "TemplateMatch",
@@ -286,7 +303,8 @@
         "next": [
             "benefit_station"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]关闭村口[/color]"
     },
     "benefit_station": {
         "recognition": "TemplateMatch",
@@ -304,7 +322,8 @@
         "interrupt": [
             "sign_done"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]进入福利站[/color]"
     },
     "sign_done": {
         "recognition": "TemplateMatch",
@@ -319,7 +338,8 @@
         "next": [
             "feed_pig"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]签到已经完成[/color]"
     },
     "naruto_club_sign": {
         "recognition": "TemplateMatch",
@@ -337,7 +357,8 @@
         "interrupt": [
             "naruto_club_sign"
         ],
-        "post_wait_freezes": 1000
+        "post_wait_freezes": 1000,
+        "focus": "[color:DeepSkyBlue]进行签到[/color]"
     },
     "confirm_naruto_club_sign": {
         "recognition": "TemplateMatch",
@@ -353,7 +374,8 @@
             "roger_naruto_club_sign"
         ],
         "pre_wait_freezes": 800,
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]确认签到[/color]"
     },
     "roger_naruto_club_sign": {
         "recognition": "TemplateMatch",
@@ -368,7 +390,8 @@
         "next": [
             "feed_pig"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]收到签到提醒[/color]"
     },
     "feed_pig": {
         "recognition": "TemplateMatch",
@@ -386,7 +409,8 @@
         "interrupt": [
             "feed_pig_done"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]喂豚豚[/color]"
     },
     "weekly_feed_pig": {
         "recognition": "TemplateMatch",
@@ -402,7 +426,8 @@
             "confirm_feed_pig"
         ],
         "interrupt": "close_feed_pig",
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]每周喂豚豚[/color]"
     },
     "feed_pig_done": {
         "recognition": "TemplateMatch",
@@ -417,7 +442,8 @@
         "next": [
             "close_feed_pig"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]喂豚豚已完成[/color]"
     },
     "confirm_feed_pig": {
         "recognition": "TemplateMatch",
@@ -432,7 +458,8 @@
         "next": [
             "close_feed_pig"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]确认喂豚豚[/color]"
     },
     "close_feed_pig": {
         "recognition": "TemplateMatch",
@@ -447,7 +474,8 @@
         "next": [
             "check_club_mission_done"
         ],
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]关闭喂豚豚[/color]"
     },
     "check_club_mission_done": {
         "next": [
@@ -483,7 +511,8 @@
             "gold_helper"
         ],
         "pre_wait_freezes": 1000,
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]上滑动提交任务[/color]"
     },
     "gold_helper": {
         "next": [
@@ -493,7 +522,8 @@
         ],
         "interrupt": [
             "swipe_for_mission"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]金币助手任务[/color]"
     },
     "gold_helper_undone": {
         "recognition": "TemplateMatch",
@@ -509,7 +539,8 @@
         "next": [
             "close_gold_helper"
         ],
-        "post_wait_freezes": 1000
+        "post_wait_freezes": 1000,
+        "focus": "[color:DeepSkyBlue]金币助手已完成[/color]"
     },
     "gold_helper_wait": {
         "recognition": "TemplateMatch",
@@ -517,7 +548,8 @@
         "next": [
             "swipe_for_club_submit"
         ],
-        "threshold": 0.95
+        "threshold": 0.95,
+        "focus": "[color:DeepSkyBlue]可以进行金币助手任务[/color]"
     },
     "gold_helper_done": {
         "recognition": "TemplateMatch",
@@ -525,7 +557,8 @@
         "next": [
             "swipe_for_club_submit"
         ],
-        "threshold": 0.95
+        "threshold": 0.95,
+        "focus": "[color:DeepSkyBlue]金币助手已完成[/color]"
     },
     "close_gold_helper": {
         "recognition": "TemplateMatch",
@@ -539,7 +572,8 @@
         "action": "Click",
         "next": [
             "swipe_for_club_submit"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]关闭金币助手[/color]"
     },
     "swipe_for_club_submit": {
         "roi": [
@@ -564,7 +598,8 @@
         "next": [
             "keep_club_submit"
         ],
-        "post_wait_freezes": 1000
+        "post_wait_freezes": 1000,
+        "focus": "[color:DeepSkyBlue]滑动提交任务[/color]"
     },
     "keep_club_submit": {
         "next": [
@@ -581,18 +616,21 @@
         "next": [
             "club_award"
         ],
-        "inverse": true
+        "inverse": true,
+        "focus": "[color:DeepSkyBlue]检测任务是否已经全部提交[/color]"
     },
     "club_submit": {
         "recognition": "TemplateMatch",
         "template": "Naruto_club/mission_submit.png",
         "action": "Click",
-        "post_wait_freezes": 500
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]提交任务[/color]"
     },
     "start_qq": {
         "action": "StartApp",
         "package": "com.tencent.mobileqq",
-        "post_delay": 1000
+        "post_delay": 1000,
+        "focus": "[color:DeepSkyBlue]打开qq[/color]"
     },
     "club_award": {
         "next": [
@@ -619,7 +657,8 @@
         ],
         "threshold": 0.9,
         "pre_wait_freezes": 300,
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:DeepSkyBlue]第一个奖励已领取[/color]"
     },
     "club_first_award": {
         "recognition": "TemplateMatch",
@@ -635,7 +674,8 @@
             "confirm_club_first_award"
         ],
         "pre_wait_freezes": 300,
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:DeepSkyBlue]第一个奖励[/color]"
     },
     "confirm_club_first_award": {
         "recognition": "TemplateMatch",
@@ -651,7 +691,8 @@
             "roger_club_first_award"
         ],
         "post_wait_freezes": 300,
-        "post_delay": 5000
+        "post_delay": 5000,
+        "focus": "[color:DeepSkyBlue]确认领取第一个奖励[/color]"
     },
     "roger_club_first_award": {
         "recognition": "TemplateMatch",
@@ -663,7 +704,8 @@
             53
         ],
         "action": "Click",
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:DeepSkyBlue]收到第一个奖励领取通知[/color]"
     },
     "club_second_award": {
         "recognition": "TemplateMatch",
@@ -678,7 +720,8 @@
         "next": [
             "confirm_club_second_award"
         ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:DeepSkyBlue]领取第二个奖励[/color]"
     },
     "confirm_club_second_award": {
         "recognition": "TemplateMatch",
@@ -696,7 +739,8 @@
         "interrupt": [
             "club_second_award_done"
         ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:DeepSkyBlue]确认领取第二个奖励[/color]"
     },
     "roger_club_second_award": {
         "recognition": "TemplateMatch",
@@ -708,7 +752,8 @@
             52
         ],
         "action": "Click",
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:DeepSkyBlue]收到第二个奖励领取通知[/color]"
     },
     "club_second_award_done": {
         "recognition": "TemplateMatch",
@@ -726,7 +771,8 @@
             "club_third_award"
         ],
         "threshold": 0.9,
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:DeepSkyBlue]第二个奖励已领取[/color]"
     },
     "club_third_award": {
         "recognition": "TemplateMatch",
@@ -741,7 +787,8 @@
         "next": [
             "confirm_club_third_award"
         ],
-        "post_wait_freezes": 800
+        "post_wait_freezes": 800,
+        "focus": "[color:DeepSkyBlue]领取第三个奖励[/color]"
     },
     "confirm_club_third_award": {
         "recognition": "TemplateMatch",
@@ -756,7 +803,8 @@
         "next": [
             "roger_club_third_award"
         ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:DeepSkyBlue]确认领取第三个奖励[/color]"
     },
     "roger_club_third_award": {
         "recognition": "TemplateMatch",
@@ -768,7 +816,8 @@
             53
         ],
         "action": "Click",
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:DeepSkyBlue]收到第三个奖励领取通知[/color]"
     },
     "club_third_award_done": {
         "recognition": "TemplateMatch",
@@ -783,7 +832,8 @@
         "next": [
             "close_naruto_club"
         ],
-        "post_wait_freezes": 300
+        "post_wait_freezes": 300,
+        "focus": "[color:DeepSkyBlue]第三个奖励已领取[/color]"
     },
     "close_naruto_club": {
         "recognition": "TemplateMatch",
@@ -797,7 +847,8 @@
         "action": "Click",
         "next": [
             "back_main_screen_and_stop"
-        ]
+        ],
+        "focus": "[color:DeepSkyBlue]关闭情报社[/color]"
     },
     "check_in_qq": {
         "recognition": "OCR",
