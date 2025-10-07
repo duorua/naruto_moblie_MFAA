@@ -105,7 +105,7 @@
             "swipe_for_comments"
         ],
         "post_wait_freezes": 500,
-        "focus": "[color:DeepSkyBlue]选择又评论话题[/color]"
+        "focus": "[color:DeepSkyBlue]选择有评论话题[/color]"
     },
     "club_like_mission": {
         "next": [
@@ -155,7 +155,7 @@
             100,
             50
         ],
-        "post_delay": 1000,
+        "post_delay": 1500,
         "focus": "[color:DeepSkyBlue]滑动点赞[/color]"
     },
     "second_like": {

@@ -275,7 +275,7 @@
             "mission_office_get_mission"
         ],
         "post_wait_freezes": 200,
-        "focus": "[color:DeepSkyBlue]使用推荐配对[/color]"
+        "focus": "[color:DeepSkyBlue]使用推荐配队[/color]"
     },
     "mission_office_3_mission": {
         "recognition": "TemplateMatch",

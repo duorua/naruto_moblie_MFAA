@@ -264,7 +264,7 @@
             "team_dash_remin_1",
             "team_dash_remin_0"
         ],
-        "post_wait_freezes": 300,
+        "post_delay": 300,
         "focus": "[color:DeepSkyBlue]小队突袭还可以进行两次[/color]"
     },
     "team_dash_auto_fight": {
@@ -366,7 +366,7 @@
             34
         ],
         "action": "Click",
-        "post_wait_freezes": 200,
+        "post_delay": 300,
         "next": [
             "team_dash_above_kage_sweep",
             "team_dash_auto_fight"
@@ -486,7 +486,7 @@
         "next": [
             "close_team_desh"
         ],
-        "post_wait_freezes": 1000,
+        "post_delay": 1000,
         "focus": "[color:DeepSkyBlue]小队突袭还可以进行零次[/color]"
     },
     "close_team_desh": {
@@ -505,7 +505,7 @@
         "interrupt": [
             "back_main_screen_and_stop"
         ],
-        "post_wait_freezes": 200,
+        "post_delay": 200,
         "focus": "[color:DeepSkyBlue]关闭小队突袭[/color]"
     },
     "close_team_desh_out_team_sign": {
