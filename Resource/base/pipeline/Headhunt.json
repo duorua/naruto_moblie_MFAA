@@ -78,7 +78,7 @@
             174,
             523
         ],
-        "threshold": 0.95,
+        "threshold": 0.85,
         "action": "Click",
         "next": [
             "top_secret_treasure_box_undone",
@@ -95,7 +95,7 @@
             174,
             523
         ],
-        "threshold": 0.95,
+        "threshold": 0.85,
         "action": "Click",
         "next": [
             "headhunt_recruit"

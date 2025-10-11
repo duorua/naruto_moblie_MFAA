@@ -6,18 +6,33 @@
         "interrupt": [
             "back_main_screen"
         ],
-        "focus": "[color:DeepSkyBlue]进入轻松助手子任务[/color]"
+        "focus": "[color:DeepSkyBlue]进入轻松助手任务[/color]"
     },
     "easy_helper_entry": {
         "next": [
-            "easy_helper_undone",
-            "easy_helper_done"
+            "easy_helper_done",
+            "easy_helper_enter"
         ],
         "interrupt": [
             "stoptask"
         ]
     },
-    "easy_helper_undone": {
+    "easy_helper_done": {
+        "recognition": "TemplateMatch",
+        "template": "Easy_helper/easy_helper_done_masked.png",
+        "roi": [
+            1066,
+            1,
+            145,
+            533
+        ],
+        "green_mask": true,
+        "next": [
+            "stoptask"
+        ],
+        "focus": "[color:DeepSkyBlue]轻松助手已完成[/color]"
+    },
+    "easy_helper_enter": {
         "recognition": "TemplateMatch",
         "template": "Easy_helper/easy_helper_undone_masked.png",
         "roi": [
@@ -35,7 +50,7 @@
             "easy_helper_daily"
         ],
         "post_delay": 700,
-        "focus": "[color:DeepSkyBlue]轻松助手未完成[/color]"
+        "focus": "[color:DeepSkyBlue]进入轻松助手[/color]"
     },
     "easy_helper_daily": {
         "recognition": "TemplateMatch",
@@ -49,21 +64,6 @@
         "action": "Click",
         "post_delay": 700,
         "focus": "[color:DeepSkyBlue]点击一键审批[/color]"
-    },
-    "easy_helper_done": {
-        "recognition": "TemplateMatch",
-        "template": "Easy_helper/easy_helper_done_masked.png",
-        "roi": [
-            1066,
-            1,
-            145,
-            533
-        ],
-        "green_mask": true,
-        "next": [
-            "stoptask"
-        ],
-        "focus": "[color:DeepSkyBlue]轻松助手已完成[/color]"
     },
     "easy_helper_one_key": {
         "recognition": "TemplateMatch",
@@ -83,22 +83,6 @@
         ],
         "post_wait_freezes": 1000,
         "focus": "[color:DeepSkyBlue]打开轻松助手[/color]"
-    },
-    "easy_helper_gold_sweep": {
-        "recognition": "TemplateMatch",
-        "template": "Easy_helper/use_gold.png",
-        "roi": [
-            414,
-            416,
-            202,
-            69
-        ],
-        "action": "Click",
-        "next": [
-            "confirm_easy_helper_one_key"
-        ],
-        "post_wait_freezes": 1000,
-        "focus": "[color:DeepSkyBlue]使用金币扫荡丰饶[/color]"
     },
     "easy_helper_no_gold_sweep": {
         "recognition": "TemplateMatch",
