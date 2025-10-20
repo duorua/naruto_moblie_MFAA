@@ -1,0 +1,128 @@
+{
+  "close_announcement": {
+    "recognition": "TemplateMatch",
+    "template": [
+      "Startgame/green_masked_x.png",
+      "Startgame/headhunt_end_green_masked.png"
+    ],
+    "action": "Click",
+    "green_mask": true,
+    "threshold": 0.5,
+    "post_wait_freezes": 100,
+    "focus": "[color:DeepSkyBlue]关闭公告[/color]"
+  },
+  "check_main_screen": {
+    "recognition": "TemplateMatch",
+    "template": [
+      "Startgame/main_green_masked.png"
+    ],
+    "roi": [
+      11,
+      0,
+      1269,
+      720
+    ],
+    "threshold": 0.95,
+    "action": "DoNothing",
+    "green_mask": true,
+    "post_delay": 500,
+    "focus": "[color:darkgray]检测到主页面[/color]"
+  },
+  "keep_close_x": {
+    "next": [
+      "check_no_x"
+    ],
+    "interrupt": [
+      "click_x",
+      "close_headhunt_end_announcement",
+      "keep_close_x",
+      "close_friend_rank"
+    ]
+  },
+  "check_no_x": {
+    "recognition": "TemplateMatch",
+    "template": "Share/green_masked_x.png",
+    "action": "DoNothing",
+    "green_mask": true,
+    "inverse": true,
+    "threshold": 0.5,
+    "timeout": 2000,
+    "next": [
+      "check_main_screen"
+    ],
+    "interrupt": [
+      "click_x"
+    ],
+    "post_delay": 700,
+    "focus": "[color:DeepSkyBlue]检查有没有可关闭窗口[/color]"
+  },
+  "click_x": {
+    "recognition": "TemplateMatch",
+    "template": [
+      "Share/green_masked_x.png"
+    ],
+    "action": "Click",
+    "green_mask": true,
+    "threshold": 0.5,
+    "next": [
+      "keep_close_x"
+    ],
+    "interrupt": [
+      "close_headhunt_end_announcement"
+    ],
+    "post_delay": 500,
+    "focus": "[color:darkgray]点击关闭按钮[/color]"
+  },
+  "close_headhunt_end_announcement": {
+    "recognition": "TemplateMatch",
+    "template": "Startgame/headhunt_end_green_masked.png",
+    "roi": [
+      1140,
+      0,
+      140,
+      118
+    ],
+    "green_mask": true,
+    "threshold": 0.5,
+    "action": "Click",
+    "post_wait_freezes": 200,
+    "focus": "[color:DeepSkyBlue]关闭高招公告[/color]"
+  },
+  "close_friend_rank": {
+    "recognition": "TemplateMatch",
+    "template": "Startgame/friend_rank.png",
+    "roi": [
+      738,
+      629,
+      93,
+      56
+    ],
+    "action": "Swipe",
+    "duration": 50,
+    "focus": "[color:DeepSkyBlue]关闭好友排名[/color]"
+  },
+  "is_come_back": {
+    "recognition": "ocr",
+    "text": "我回来了",
+    "action": "Click",
+    "roi": [
+      496,
+      560,
+      324,
+      160
+    ],
+    "focus": "[color:DeepSkyBlue]点击我回来了[/color]"
+  },
+  "im_comeback": {
+    "recognition": "ocr",
+    "text": "领取礼物",
+    "action": "Click",
+    "roi": [
+      470,
+      441,
+      351,
+      191
+    ],
+    "focus": "[color:DeepSkyBlue]点击领取礼物[/color]"
+  }
+}

@@ -1,26 +1,40 @@
 {
     "start_up": {
-        "next": [
-            "start_naruto"
-        ],
-        "focus": "[color:DeepSkyBlue]进入启动游戏子任务[/color]"
-    },
-    "start_naruto": {
         "action": "StartApp",
         "package": "com.tencent.KiHan",
         "next": [
-            "check_start_game"
+            "start_naruto"
+        ],
+        "focus": "[color:DeepSkyBlue]火影忍者，启动！[/color]"
+    },
+    "start_naruto": {
+        "next": [
+            "check_main_screen_and_stop"
         ],
         "interrupt": [
-            "agree_log_in",
-            "close_teenager_page",
+            "before_game",
             "close_before_game_notice",
-            "unagreement",
-            "agreement",
-            "click_icon",
-            "wait_5_second"
+            "close_teenager_page"
+        ]
+    },
+    "before_game": {
+        "recognition": "TemplateMatch",
+        "template": "Startgame/naruto_logo.png",
+        "threshold": 0.4,
+        "recommended roi": [
+            6,
+            0,
+            348,
+            218
         ],
-        "focus": "[color:DeepSkyBlue]启动游戏[/color]"
+        "next": [
+            "click_start_game"
+        ],
+        "interrupt": [
+            "agreement",
+            "unagreement",
+            "agree_log_in"
+        ]
     },
     "close_teenager_page": {
         "recognition": "TemplateMatch",
@@ -32,16 +46,6 @@
             50
         ],
         "action": "Click",
-        "next": [
-            "check_start_game"
-        ],
-        "interrupt": [
-            "agree_log_in",
-            "close_before_game_notice",
-            "unagreement",
-            "agreement",
-            "click_icon"
-        ],
         "pre_wait_freezes": 500,
         "focus": "[color:DeepSkyBlue]尝试关闭青少年界面[/color]"
     },
@@ -75,47 +79,8 @@
         ],
         "action": "Click",
         "inverse": true,
-        "next": [
-            "check_start_game"
-        ],
-        "interrupt": [
-            "agree_log_in",
-            "close_teenager_page",
-            "unagreement",
-            "agreement",
-            "click_icon"
-        ],
         "post_delay": 500,
         "focus": "[color:DeepSkyBlue]检查是否关闭游戏前公告[/color]"
-    },
-    "click_icon": {
-        "recognition": "TemplateMatch",
-        "template": "Startup/icon.png",
-        "action": "Click",
-        "next": [
-            "check_start_game"
-        ],
-        "threshold": 0.85,
-        "interrupt": [
-            "agree_log_in",
-            "unagreement",
-            "agreement",
-            "click_icon",
-            "wait_5_second"
-        ],
-        "focus": "[color:DeepSkyBlue]点击游戏图标[/color]"
-    },
-    "check_start_game": {
-        "recognition": "TemplateMatch",
-        "template": "Startup/start_game.png",
-        "roi": [
-            487,
-            570,
-            294,
-            75
-        ],
-        "action": "StopTask",
-        "focus": "[color:DeepSkyBlue]检查到开始游戏并终止子任务[/color]"
     },
     "unagreement": {
         "recognition": "TemplateMatch",
@@ -145,6 +110,7 @@
         "focus": "[color:DeepSkyBlue]已确认协议[/color]"
     },
     "account_type": {
+        "timeout": 3000,
         "next": "android_qq"
     },
     "android_qq": {
@@ -157,8 +123,10 @@
             71
         ],
         "action": "Click",
-        "next": "agree_log_in",
-        "interrupt": "check_start_game",
+        "next": [
+            "android_qq",
+            "agree_log_in"
+        ],
         "post_wait_freezes": 100,
         "focus": "[color:DeepSkyBlue]安卓qq账号[/color]"
     },
@@ -186,24 +154,77 @@
             34
         ],
         "action": "Click",
-        "next": [
-            "check_start_game"
-        ],
-        "interrupt": [
-            "close_before_game_notice",
-            "agreement",
-            "restart_naruto",
-            "click_icon"
-        ],
         "post_delay": 1500,
         "focus": "[color:DeepSkyBlue]确认同意信息[/color]"
     },
-    "restart_naruto": {
-        "action": "StopApp",
-        "package": "com.tencent.KiHan",
-        "next": [
-            "click_icon"
+    "click_start_game": {
+        "recognition": "ocr",
+        "expected": "开始游戏",
+        "roi": [
+            494,
+            530,
+            291,
+            153
         ],
-        "focus": "[color:DeepSkyBlue]重启游戏[/color]"
+        "action": "Click",
+        "next": [
+            "click_start_game",
+            "check_main_screen_and_stop"
+        ],
+        "interrupt": [
+            "close_new_ninjia_page",
+            "close_headhunt_end_announcement",
+            "weekly_sign",
+            "close_friend_rank",
+            "back_main_screen"
+        ],
+        "focus": "[color:DeepSkyBlue]点击开始游戏[/color]"
+    },
+    "check_main_screen_and_stop": {
+        "recognition": "TemplateMatch",
+        "template": [
+            "Startgame/main_green_masked.png"
+        ],
+        "roi": [
+            11,
+            0,
+            1269,
+            720
+        ],
+        "threshold": 0.95,
+        "action": "StopTask",
+        "green_mask": true,
+        "post_delay": 500,
+        "focus": "[color:tomato]当前任务结束[/color]"
+    },
+    "close_new_ninjia_page": {
+        "recognition": "TemplateMatch",
+        "template": "Startgame/right_up_x.png",
+        "roi": [
+            1188,
+            0,
+            92,
+            52
+        ],
+        "action": "Click",
+        "post_wait_freezes": 500,
+        "focus": "[color:DeepSkyBlue]关闭忍者上新公告[/color]"
+    },
+    "weekly_sign": {
+        "recognition": "OCR",
+        "expected": [
+            "领取",
+            "领",
+            "取"
+        ],
+        "roi": [
+            606,
+            587,
+            68,
+            36
+        ],
+        "action": "Click",
+        "post_wait_freezes": 100,
+        "focus": "[color:DeepSkyBlue]进行周度签到[/color]"
     }
 }

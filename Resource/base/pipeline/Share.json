@@ -246,17 +246,6 @@
         "action": "Click",
         "focus": "[color:darkgray]关闭聊天[/color]"
     },
-    "keep_close_x": {
-        "next": [
-            "check_no_x"
-        ],
-        "interrupt": [
-            "click_x",
-            "close_headhunt_end_announcement",
-            "keep_close_x",
-            "close_friend_rank"
-        ]
-    },
     "click_x_single": {
         "recognition": "TemplateMatch",
         "roi": [
@@ -276,40 +265,6 @@
         "threshold": 0.5,
         "post_delay": 500,
         "focus": "[color:darkgray]关闭当前窗口[/color]"
-    },
-    "check_no_x": {
-        "recognition": "TemplateMatch",
-        "template": "Share/green_masked_x.png",
-        "action": "DoNothing",
-        "green_mask": true,
-        "inverse": true,
-        "threshold": 0.5,
-        "next": [
-            "check_main_screen"
-        ],
-        "interrupt": [
-            "weekly_sign",
-            "click_x"
-        ],
-        "post_delay": 700,
-        "focus": "[color:DeepSkyBlue]检查有没有可关闭窗口[/color]"
-    },
-    "click_x": {
-        "recognition": "TemplateMatch",
-        "template": [
-            "Share/green_masked_x.png"
-        ],
-        "action": "Click",
-        "green_mask": true,
-        "threshold": 0.5,
-        "next": [
-            "keep_close_x"
-        ],
-        "interrupt": [
-            "close_headhunt_end_announcement"
-        ],
-        "post_delay": 500,
-        "focus": "[color:darkgray]点击关闭按钮[/color]"
     },
     "award_center_enter": {
         "recognition": "TemplateMatch",

@@ -1,13 +1,12 @@
-# Maa Auto Naruto 长期公告
+# 长期公告
 
 ![LOGO](https://mirrorchyan.com/api/misc/static/project/MaaAutoNaruto.png)
 
-基于opencv图像识别技术的`火影忍者手游`自动化工具。
+Maa Auto Naruto 是一款基于opencv图像识别技术的`火影忍者手游`自动化工具。
 
 > **重要提示**：
 >
 > 使用前要在模拟器设置里将分辨率调整为`平板版`的`1600x900`并`锁定屏幕旋转`为横屏。别再问为什么会在小程序里卡住了！
-
 
 ## 使用说明
 
